@@ -103,19 +103,19 @@ layout: homepage
 
 <hr style="height:0.3px; margin-top:10px; margin-bottom:0">
 
-<!-- <div class="flex-container">
+<div class="flex-container">
     <div class="photo-text-container">
-        <img src="https://gunyeal.github.io/assets/photos/temp-image.png" alt="temp-image" class="publication-photo">
+        <img src="https://gunyeal.github.io/assets/photos/figure-arwaveguide.jpg" alt="figure-ar-waveguide" class="publication-photo">
     </div>
     <div class="text-container">
         <h2>Full-color 3D holographic augmented reality displays with metasurface waveguides</h2>
         <p>Manu Gopakumar*, <u><b>Gun-Yeal Lee*</b></u>, Suyeon Choi, Brian Chao, Yifan Peng, Jonghyun Kim, Gordon Wetzstein (*equal contribution)</p>
         <p><b>Nature 2024</b></p>
         <p></p>
-        <p><a href="{{ publication.link }}">[Link]</a></p>
+        <p><a href="https://www.nature.com/articles/s41586-024-07386-0">[Link]</a></p>
     </div>
 </div>
-<!-- <hr style="height:0.3px; margin-top:0; margin-bottom:0"> -->
+<hr style="height:0.3px; margin-top:0; margin-bottom:0">
 
 <div class="flex-container">
     <div class="photo-text-container">
