@@ -96,7 +96,12 @@ layout: homepage
 
 <h2>Featured Publications</h2>
 
-<hr style="height:0.3px; margin-top:0; margin-bottom:0">
+<div style="text-align: right">
+    <a href="https://gunyeal.github.io/publications/">[See All Publications > ]</a>
+</div>
+
+
+<hr style="height:0.3px; margin-top:10px; margin-bottom:0">
 
 <!-- <div class="flex-container">
     <div class="photo-text-container">
@@ -142,6 +147,3 @@ layout: homepage
 </div>
 <hr style="height:0.3px; margin-top:0; margin-bottom:0">
 
-<div style="text-align: right">
-    <a href="https://scholar.google.com/citations?user=SlXpVNkAAAAJ&hl=en">[See All Publications > ]</a>
-</div>
