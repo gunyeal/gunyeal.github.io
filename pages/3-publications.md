@@ -40,7 +40,7 @@ layout: page
         {% assign boldedNameWithDagger = normalizedName | replace: "<strong>Gun-Yeal Lee</strong>&dagger;", "<u><strong>Gun-Yeal Lee&dagger;</strong></u>" %}
         {{ boldedNameWithDagger }}
     </p>
-    <p><em>{{ publication.journal }}</em> {{ publication.volume }}{% if publication.issue %}({{ publication.issue }}){% endif %}, article {{ publication.article }} ({{ publication.year }}). <a href="{{ publication.link }}">[Link]</a>{% if publication.notes %} <strong>{{ publication.notes }}</strong>{% endif %}</p>
+    <p><em>{{ publication.journal }}</em> {%if publication.volume %}{{ publication.volume }}{% endif %}{% if publication.issue %}({{ publication.issue }}){% endif %}{%if publication.article %}, article {{ publication.article }}{% endif %} ({{ publication.year }}). <a href="{{ publication.link }}">[Link]</a>{% if publication.notes %} {{ publication.notes }}{% endif %}</p>
 </div>
 {% assign count = count | minus: 1 %}
 {% endfor %}
