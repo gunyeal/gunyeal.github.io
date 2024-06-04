@@ -1,10 +1,19 @@
 
+- title: "Freeform metasurface color router for deep submicron pixel image sensors"
+  authors: "Changhyun Kim, Jongwoo Hong, Junhyeok Jang, Gun-Yeal Lee, Youngjin Kim, Yoonchan Jeong, and Byoungho Lee"
+  journal: "Science Advances"
+  volume: "10"
+  issue: "22"
+  article: "eadn9000"
+  year: "2024"
+  link: "https://www.science.org/doi/full/10.1126/sciadv.adn9000"
+
 - title: "Full-colour 3D holographic augmented-reality displays with metasurface waveguides"
   authors: "Manu Gopakumar&dagger;, Gun-Yeal Lee&dagger;, Suyeon Choi, Brian Chao, Yifan Peng, Jonghyun Kim, and Gordon Wetzstein"
   journal: "Nature"
-  # volume: ""
+  volume: "629"
   # issue: ""
-  # article: ""
+  article: "791-797"
   year: "2024"
   link: "https://www.nature.com/articles/s41586-024-07386-0"
 
