@@ -102,11 +102,15 @@ Teaching
 
 ## Invited Talks
 
-* Invited Talk, "Recent advances in Meta-optics for imaging and AR/VR devices", Pohang University of Science and Technology (POSTECH), 02/2024
-* Invited Talk, "Recent advances in Meta-Optics for imaging and AR/VR devices", Samsung Research, 02/2024
-* Invited Talk, "Nanophotonics for optical imaging and displays", Samsung Advanced Instituite of Technology (SAIT), 02/2024
-* Invited Talk, "Metasurface Optics for next-generation displays", Seoul National University (SNU) GoGE Workshop, 10/2023
-* Invited Talk, "Meta-Optics: Fundamentals and Design methods", Synopsys, 09/2022
+* "3D holographic AR glasses with metasurface waveguides," Synopsys, 06/2024
+* "3D holographic AR glasses with metasurface waveguides," Stanford University, invited by Prof. Mark Brongersma, 06/2024
+* "Recent advances in Meta-optics for imaging and AR/VR devices," Pohang University of Science and Technology (POSTECH), invited by Prof. Seung-Hwan Baek and Prof. Junsuk Rho, 02/2024
+* "Recent advances in Meta-Optics for imaging and AR/VR devices," Samsung Research, 02/2024
+* "Nanophotonics for optical imaging and displays," Samsung Advanced Instituite of Technology (SAIT), 02/2024
+* "Metasurface Optics for next-generation displays," Seoul National University, GoGE Workshop, 10/2023
+* "Metasurface Optics towards next-generation imaging systems," Stanford University, invited by Prof. Mark Brongersma, 10/2022
+* "Meta-Optics: Fundamentals and Design methods," Synopsys, 09/2022
+* "Metasurface optics towards next-generation imaging systems," Stanford University, invited by Prof. Gordon Wetzstein, 02/2022
 
 <!-- ## <span class="colorTitle"> Skills </span> -->
 <hr style="height:0.3px; margin-top:0; margin-bottom:0">
