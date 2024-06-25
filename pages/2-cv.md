@@ -110,6 +110,7 @@ Teaching
 * "Metasurface Optics for next-generation displays," Seoul National University, GoGE Workshop, 10/2023
 * "Metasurface Optics towards next-generation imaging systems," Stanford University, invited by Prof. Mark Brongersma, 10/2022
 * "Meta-Optics: Fundamentals and Design methods," Synopsys, 09/2022
+<!-- * "Metasurfaces: Principle and Applications - Metalens and Metahologram," LIPAK, 07/2022 -->
 * "Metasurface optics towards next-generation imaging systems," Stanford University, invited by Prof. Gordon Wetzstein, 02/2022
 
 <!-- ## <span class="colorTitle"> Skills </span> -->
