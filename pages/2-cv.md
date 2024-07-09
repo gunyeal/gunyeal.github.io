@@ -7,7 +7,7 @@ layout: page
 <div style="text-align: right">
 
 Last update: June 25, 2024
-<a href="https://gunyeal.github.io/assets/CV_GYLee_231025.pdf">[PDF]</a>
+<a href="https://gunyeal.github.io/assets/CV_GYLee_240708.pdf">[PDF]</a>
 
 </div>
 
