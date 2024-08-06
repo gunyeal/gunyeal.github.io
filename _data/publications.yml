@@ -1,4 +1,5 @@
 
+#2024
 - title: "Freeform metasurface color router for deep submicron pixel image sensors"
   authors: "Changhyun Kim, Jongwoo Hong, Junhyeok Jang, Gun-Yeal Lee, Youngjin Kim, Yoonchan Jeong, and Byoungho Lee"
   journal: "Science Advances"
@@ -18,6 +19,7 @@
   link: "https://www.nature.com/articles/s41586-024-07386-0"
 
 
+#2023
 - title: "Neural Holographic Near-eye Displays for Virtual Reality"
   authors: "Suyeon Choi, Manu Gopakumar, Brian Chao, Gun-Yeal Lee, Jonghyun Kim, and Gordon Wetzstein"
   journal: "ACM SIGGRAPH 2023 Emerging Technologies"
@@ -55,7 +57,7 @@
   issue: "5"
   article: "2106050"
   year: "2021"
-  link: "https://link-to-article.com"
+  link: "https://onlinelibrary.wiley.com/doi/full/10.1002/adfm.202106050"
 
 - title: "Independent multichannel wavefront modulation for angle multiplexed meta-holograms"
   authors: "Junhyeok Jang&dagger;, Gun-Yeal Lee&dagger;, Jangwoon Sung, and Byoungho Lee"
@@ -64,7 +66,7 @@
   issue: "17"
   article: "2100678"
   year: "2021"
-  link: "https://link-to-article.com"
+  link: "https://onlinelibrary.wiley.com/doi/full/10.1002/adom.202100678"
 
 # 2020
 - title: "Polarization dependent asymmetric transmission using bifacial metasurface"
@@ -74,7 +76,7 @@
   issue: "11"
   article: "1487-1495"
   year: "2020"
-  link: "https://link-to-article.com"
+  link: "https://pubs.rsc.org/en/content/articlelanding/2020/nh/d0nh00319k"
 
 - title: "Metasurface optics for imaging applications"
   authors: "Gun-Yeal Lee, Jangwoon Sung, and Byoungho Lee"
@@ -83,16 +85,16 @@
   issue: "3"
   article: "202-209"
   year: "2020"
-  link: "http://example.com" # replace with actual link
+  link: "https://link.springer.com/article/10.1557/mrs.2020.64"
 
-- title: "All-dielectric metasurface for complex-amplitude modulation for linearly polarized light"
-  authors: "Jangwoon Sung, Gun-Yeal Lee, Jongwoo Hong, Hyunwoo Son, and Byoungho Lee"
-  journal: "Asian Journal of Physics"
-  volume: "28"
-  issue: "1"
-  article: "645-653"
-  year: "2019"
-  link: "http://example.com" # replace with actual link
+# - title: "All-dielectric metasurface for complex-amplitude modulation for linearly polarized light"
+#   authors: "Jangwoon Sung, Gun-Yeal Lee, Jongwoo Hong, Hyunwoo Son, and Byoungho Lee"
+#   journal: "Asian Journal of Physics"
+#   volume: "28"
+#   issue: "1"
+#   article: "645-653"
+#   year: "2019"
+#   link: "http://example.com" # replace with actual link
 
 - title: "Progresses in the practical metasurface for holography and lens"
   authors: "Jangwoon Sung, Gun-Yeal Lee, and Byoungho Lee"
@@ -101,7 +103,7 @@
   issue: "10"
   article: "1701-1718"
   year: "2019"
-  link: ""
+  link: "https://www.degruyter.com/document/doi/10.1515/nanoph-2019-0203/html?lang=en"
 
 - title: "Metasurface with nanostructured Ge2Sb2Te5 as a platform for broadband‐operating wavefront switch"
   authors: "Chulsoo Choi, Seung-Yeol Lee, Sang-Eun Mun, Gun-Yeal Lee, Jangwoon Sung, Hansik Yun, Jong-Heon Yang, Hee-Ok Kim, Chi-Young Hwang, and Byoungho Lee"
@@ -110,7 +112,7 @@
   issue: "12"
   article: "1900171"
   year: "2019"
-  link: "LINK_TO_THE_ARTICLE"
+  link: "https://onlinelibrary.wiley.com/doi/full/10.1002/adom.201900171"
 
 - title: "Augmented reality near-eye display using Pancharatnam-Berry phase lenses"
   authors: "Seokil Moon, Chang-Kun Lee, Seung-Woo Nam, Changwon Jang, Gun-Yeal Lee, Wontaek Seo, Geeyoung Sung, Hong-Seok Lee, and Byoungho Lee"
@@ -119,7 +121,7 @@
   issue: "1"
   article: "6616"
   year: "2019"
-  link: "LINK_TO_THE_ARTICLE"
+  link: "https://www.nature.com/articles/s41598-019-42979-0"
 
 - title: "Single-layer bifacial metawsurface: full-space visible light control"
   authors: "Jangwoon Sung&dagger;, Gun-Yeal Lee&dagger;, Chulsoo Choi, Jongwoo Hong, and Byoungho Lee"
@@ -128,7 +130,7 @@
   issue: "8"
   article: "1801748"
   year: "2019"
-  link: "LINK_TO_THE_ARTICLE"
+  link: "https://onlinelibrary.wiley.com/doi/full/10.1002/adom.201801748"
 
 - title: "Recent advances in metasurface hologram technologies"
   authors: "Gun-Yeal Lee, Jangwoon Sung, and Byoungho Lee"
@@ -137,17 +139,17 @@
   issue: "1"
   article: "10-22"
   year: "2019"
-  link: "LINK_TO_THE_ARTICLE"
+  link: "https://onlinelibrary.wiley.com/doi/full/10.4218/etrij.2018-0532"
   notes: "(Best Paper Award)"
 
-- title: "Metasurface near-eye display for augmented reality"
+- title: "Metasurface eyepiece for augmented reality"
   authors: "Gun-Yeal Lee&dagger;, Jongyoung Hong&dagger;, Soonhyoung Hwang, Seungjae Lee, Hwi Kim, Joonho Jung, and Byoungho Lee"
   journal: "Nature Communications"
   volume: "9"
   issue: "1"
   article: "4562"
   year: "2018"
-  link: "LINK_TO_THE_ARTICLE"
+  link: "https://www.nature.com/articles/s41467-018-07011-5"
 
 - title: "Ultracompact broadband plasmonic polarimeter"
   authors: "Kyookeun Lee, Hansik Yun, Sang-Eun Mun, Gun-Yeal Lee, Jangwoon Sung, and Byoungho Lee"
@@ -156,7 +158,7 @@
   issue: "3"
   article: "1700297"
   year: "2018"
-  link: "LINK_TO_THE_ARTICLE"
+  link: "https://onlinelibrary.wiley.com/doi/full/10.1002/lpor.201700297"
 
 - title: "Numerical and Experimental Study on Multi-Focal Metallic Fresnel Zone Plates Designed by the Phase Selection Rule via Virtual Point Sources"
   authors: "Jinseob Kim, Hyuntai Kim, Gun-Yeal Lee, Juhwan Kim, Byoungho Lee, and Yoonchan Jeong"
@@ -165,7 +167,7 @@
   issue: "3"
   article: "449"
   year: "2018"
-  link: "LINK_TO_THE_ARTICLE"
+  link: "https://www.mdpi.com/2076-3417/8/3/449"
 
 - title: "Complete amplitude and phase control of light using broadband holographic metasurface"
   authors: "Gun-Yeal Lee, Gwanho Yoon, Seung-Yeol Lee, Hansik Yun, Jaebum Cho, Kyookeun Lee, Hwi Kim, Junsuk Rho, and Byoungho Lee"
@@ -174,7 +176,7 @@
   issue: "9"
   article: "4237-4245"
   year: "2018"
-  link: "LINK_TO_THE_ARTICLE"
+  link: "https://pubs.rsc.org/en/content/articlelanding/2018/nr/c7nr07154j"
 
 - title: "Metallic Fresnel zone plate implemented on an optical fiber facet for super-variable focusing of light"
   authors: "Hyuntai Kim, Jinseob Kim, Haechan An, Yohan Lee, Gun-Yeal Lee, Jeongkyun Na, Kyoungyoon Park, Seungjong Lee, Seung-Yeol Lee, Byoungho Lee, and Yoonchan Jeong"
@@ -183,7 +185,7 @@
   issue: "24"
   article: "30290-30303"
   year: "2017"
-  link: "LINK_TO_THE_ARTICLE"
+  link: "https://opg.optica.org/oe/fulltext.cfm?uri=oe-25-24-30290&id=377022"
 
 - title: "Compact generation of Airy beams with C-aperutre metasurface"
   authors: "Eui-Young Song&dagger;, Gun-Yeal Lee&dagger;, Hyeonsoo Park, Joonsoo Kim, Jongwoo Hong, Hwi Kim, and Byoungho Lee"
@@ -192,7 +194,7 @@
   issue: "10"
   article: "1601028"
   year: "2017"
-  link: "LINK_TO_THE_ARTICLE"
+  link: "https://onlinelibrary.wiley.com/doi/full/10.1002/adom.201601028"
 
 - title: "Near-field focus steering along arbitrary trajectory via multi-lined distributed nanoslits"
   authors: "Gun-Yeal Lee, Seung-Yeol Lee, Hansik Yun, Hyeonsoo Park, Joonsoo Kim, Kyookeun Lee, and Byoungho Lee"
@@ -201,7 +203,7 @@
   issue: "1"
   article: "33317"
   year: "2016"
-  link: "LINK_TO_THE_ARTICLE"
+  link: "https://www.nature.com/articles/srep33317"
 
 - title: "Interferometric control of plasmonic resonator based on polarization-sensitive excitation of surface plasmon polaritons"
   authors: "Kyookeun Lee, Joonsoo Kim, Hansik Yun, Gun-Yeal Lee, and Byoungho Lee"
@@ -210,7 +212,7 @@
   issue: "19"
   article: "21861-21868"
   year: "2016"
-  link: "LINK_TO_THE_ARTICLE"
+  link: "https://opg.optica.org/oe/fulltext.cfm?uri=oe-24-19-21861&id=349986"
 
 - title: "A double-lined metasurface for plasmonic complex-field generation"
   authors: "Eui-Young Song, Seung-Yeol Lee, Jongwoo Hong, Kyookeun Lee, Yohan Lee, Gun-Yeal Lee, Hwi Kim, and Byoungho Lee"
@@ -219,7 +221,7 @@
   issue: "2"
   article: "299-308"
   year: "2016"
-  link: "LINK_TO_THE_ARTICLE"
+  link: "https://onlinelibrary.wiley.com/doi/full/10.1002/lpor.201500245"
 
 - title: "Plasmonic directional beam switching with tilted nanoslit array surrounded by gratings"
   authors: "Seung-Yeol Lee, Gun-Yeal Lee, and Byoungho Lee"
@@ -228,7 +230,7 @@
   issue: "4"
   article: "1368-1372"
   year: "2016"
-  link: "LINK_TO_THE_ARTICLE"
+  link: "https://opg.optica.org/jlt/abstract.cfm?uri=jlt-34-4-1368"
 
 - title: "Polarization-multiplexed plasmonic phase generation with distributed nanoslits"
   authors: "Seung-Yeol Lee, Kyuho Kim, Gun-Yeal Lee, and Byoungho Lee"
@@ -237,5 +239,5 @@
   issue: "12"
   article: "15598-15607"
   year: "2015"
-  link: "LINK_TO_THE_ARTICLE"
+  link: "https://opg.optica.org/oe/fulltext.cfm?uri=oe-23-12-15598&id=320081"
 
