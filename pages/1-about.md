@@ -126,7 +126,7 @@ layout: homepage
         <p><u><b>Gun-Yeal Lee*</b></u>, Jong-Young Hong*, SoonHyoung Hwang, Seokil Moon, Hyeokjung Kang, Sohee Jeon, Hwi Kim, Jun-Ho Jeong, Byoungho Lee (*equal contribution)</p>
         <p><b>Nature Communications 2018</b></p>
         <!-- <p>Large-area metalens for wide viewing augmented reality</p> -->
-        <p><a href="https://www.nature.com/articles/s41467-018-07011-5">[Link]</a> <b>[Citations: 459]</b></p>
+        <p><a href="https://www.nature.com/articles/s41467-018-07011-5">[Link]</a> <b>[Citations: 460]</b></p>
     </div>
 </div>
 <hr style="height:0.3px; margin-top:0; margin-bottom:0">

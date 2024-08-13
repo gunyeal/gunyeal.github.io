@@ -6,7 +6,7 @@ layout: page
 
 <div style="text-align: right">
 
-Last update: Aug 06, 2024
+Last update: Aug 12, 2024
 <a href="https://gunyeal.github.io/assets/GYLee-CV-240806.pdf">[PDF]</a>
 
 </div>
@@ -102,6 +102,7 @@ Teaching
 
 ## Invited Talks
 
+* "Full-color 3D holographic augmented reality displays with metasurface waveguides," Apple, 08/2024
 * "3D holographic AR glasses with metasurface waveguides," Synopsys, 06/2024
 * "3D holographic AR glasses with metasurface waveguides," Stanford University, invited by Prof. Mark Brongersma, 06/2024
 * "Recent advances in Meta-optics for imaging and AR/VR devices," Pohang University of Science and Technology (POSTECH), invited by Prof. Seung-Hwan Baek and Prof. Junsuk Rho, 02/2024
