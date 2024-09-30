@@ -27,16 +27,16 @@ Last update: Aug 12, 2024
 
 ## Education and Experience
 
-* **Postdoctoral Researcher** / Sep 2022 - Present  
+* **Postdoctoral Researcher** / Sept 2022 - Present  
     Stanford University, US  
     Advisor: Prof. [Gordon Wetzstein](https://web.stanford.edu/~gordonwz/)
 
-* **Postdoctoral Researcher** / Sep 2021 - Aug 2022  
+* **Postdoctoral Researcher** / Sept 2021 - Aug 2022  
     Seoul National University, Republic of Korea  
     Advisor: Prof. [Byoungho Lee](https://scholar.google.com/citations?hl=en&user=VExwDP4AAAAJ)  
     Alternative military service until Aug 2022
 
-* **Ph.D in Electrical and Computer Engineering** / Sep 2015 - Aug 2021  
+* **Ph.D in Electrical and Computer Engineering** / Sept 2015 - Aug 2021  
     Seoul National University, Republic of Korea  
     Advisor: Prof. [Byoungho Lee](https://scholar.google.com/citations?hl=en&user=VExwDP4AAAAJ)
 
@@ -91,9 +91,9 @@ Teaching
 * **Best Paper Award**  
   META'17 (The 8th international conference on metamaterials, photonic crystals and plasmonics), Incheon, Korea, July 2017.
 * **Best Paper Award**  
-  International Conference on Optical and Photonic Engineering (icOPEN 2016), Chengdu, China, Sep. 2016.
+  International Conference on Optical and Photonic Engineering (icOPEN 2016), Chengdu, China, Sept. 2016.
 * **Best Student Award**  
-  International Conference on Optical and Photonic Engineering (icOPEN 2016), Chengdu, China, Sep. 2016.
+  International Conference on Optical and Photonic Engineering (icOPEN 2016), Chengdu, China, Sept. 2016.
 * **Best Paper Award – Grand Prize** (1st place out of 600 papers)  
   Nano Korea 2016, Ilsan, Korea, July 2016.
 
@@ -102,17 +102,29 @@ Teaching
 
 ## Invited Talks
 
-* "Full-color 3D holographic augmented reality displays with metasurface waveguides," Apple, 08/2024
-* "3D holographic AR glasses with metasurface waveguides," Synopsys, 06/2024
-* "3D holographic AR glasses with metasurface waveguides," Stanford University, invited by Prof. Mark Brongersma, 06/2024
-* "Recent advances in Meta-optics for imaging and AR/VR devices," Pohang University of Science and Technology (POSTECH), invited by Prof. Seung-Hwan Baek and Prof. Junsuk Rho, 02/2024
-* "Recent advances in Meta-Optics for imaging and AR/VR devices," Samsung Research, 02/2024
-* "Nanophotonics for optical imaging and displays," Samsung Advanced Instituite of Technology (SAIT), 02/2024
-* "Metasurface Optics for next-generation displays," Seoul National University, GoGE Workshop, 10/2023
-* "Metasurface Optics towards next-generation imaging systems," Stanford University, invited by Prof. Mark Brongersma, 10/2022
-* "Meta-Optics: Fundamentals and Design methods," Synopsys, 09/2022
-<!-- * "Metasurfaces: Principle and Applications - Metalens and Metahologram," LIPAK, 07/2022 -->
-* "Metasurface optics towards next-generation imaging systems," Stanford University, invited by Prof. Gordon Wetzstein, 02/2022
+* **KAIST**, Seminar, Sept 2024
+* **Seoul National University**, Seminar, Sept 2024
+* **KIST** (Korea Institute of Science and Technology), Seminar, Sept 2024
+* **Apple**, Seminar, Aug 2024
+  Full-color 3D holographic augmented reality displays with metasurface waveguides
+* **Synopsys**, Seminar, June 2024
+  3D holographic AR glasses with metasurface waveguides
+* **Stanford University**, Talk invited by Prof. Mark Brongersma, June 2024
+  3D holographic AR glasses with metasurface waveguides
+* **Pohang University of Science and Technology (POSTECH)**, Seminar invited by Prof. Seung-Hwan Baek and Prof. Junsuk Rho, Feb 2024
+  Recent advances in Meta-optics for imaging and AR/VR devices
+* **Samsung Research**, Seminar, Feb 2024
+  Recent advances in Meta-Optics for imaging and AR/VR devices
+* **Samsung Advanced Instituite of Technology (SAIT)**, Seminar, Feb 2024
+  Nanophotonics for optical imaging and displays
+* **Seoul National University**, GoGE Workshop, Oct 2023
+  Metasurface Optics for next-generation displays
+* **Stanford University**, Talk invited by Prof. Mark Brongersma, Oct 2022
+  Metasurface Optics towards next-generation imaging systems
+* **Synopsys**, Seminar, Sept 2022
+  Meta-Optics: Fundamentals and Design methods
+* **Stanford University**, Talk invited by Prof. Gordon Wetzstein, Feb 2022
+  Metasurface optics towards next-generation imaging systems
 
 <!-- ## <span class="colorTitle"> Skills </span> -->
 <hr style="height:0.3px; margin-top:0; margin-bottom:0">
