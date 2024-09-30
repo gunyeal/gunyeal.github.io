@@ -7,7 +7,7 @@ layout: page
 <div style="text-align: right">
 
 Last update: Aug 12, 2024
-<a href="https://gunyeal.github.io/assets/GYLee-CV-240806.pdf">[PDF]</a>
+<a href="https://gunyeal.github.io/assets/GYLee-CV-240930.pdf">[PDF]</a>
 
 </div>
 
@@ -102,28 +102,31 @@ Teaching
 
 ## Invited Talks
 
-* **KAIST**, Seminar, Sept 2024
-* **Seoul National University**, Seminar, Sept 2024
-* **KIST** (Korea Institute of Science and Technology), Seminar, Sept 2024
-* **Apple**, Seminar, Aug 2024
+* **KAIST**, Seminar, Sept 2024  
+  Nanophotonics and AI for AR displays and imaging applications
+* **Seoul National University**, Seminar, Sept 2024  
+  Nanophotonics and AI for AR displays and imaging applications
+* **KIST** (Korea Institute of Science and Technology), Seminar, Sept 2024  
+  Nanophotonics and AI for AR displays and imaging applications
+* **Apple**, Seminar, Aug 2024  
   Full-color 3D holographic augmented reality displays with metasurface waveguides
-* **Synopsys**, Seminar, June 2024
+* **Synopsys**, Seminar, June 2024  
   3D holographic AR glasses with metasurface waveguides
-* **Stanford University**, Talk invited by Prof. Mark Brongersma, June 2024
+* **Stanford University**, Talk invited by Prof. Mark Brongersma, June 2024  
   3D holographic AR glasses with metasurface waveguides
-* **Pohang University of Science and Technology (POSTECH)**, Seminar invited by Prof. Seung-Hwan Baek and Prof. Junsuk Rho, Feb 2024
+* **Pohang University of Science and Technology (POSTECH)**, Seminar invited by Prof. Seung-Hwan Baek and Prof. Junsuk Rho, Feb 2024  
   Recent advances in Meta-optics for imaging and AR/VR devices
-* **Samsung Research**, Seminar, Feb 2024
+* **Samsung Research**, Seminar, Feb 2024  
   Recent advances in Meta-Optics for imaging and AR/VR devices
-* **Samsung Advanced Instituite of Technology (SAIT)**, Seminar, Feb 2024
+* **Samsung Advanced Instituite of Technology (SAIT)**, Seminar, Feb 2024  
   Nanophotonics for optical imaging and displays
-* **Seoul National University**, GoGE Workshop, Oct 2023
+* **Seoul National University**, GoGE Workshop, Oct 2023  
   Metasurface Optics for next-generation displays
-* **Stanford University**, Talk invited by Prof. Mark Brongersma, Oct 2022
+* **Stanford University**, Talk invited by Prof. Mark Brongersma, Oct 2022  
   Metasurface Optics towards next-generation imaging systems
-* **Synopsys**, Seminar, Sept 2022
+* **Synopsys**, Seminar, Sept 2022  
   Meta-Optics: Fundamentals and Design methods
-* **Stanford University**, Talk invited by Prof. Gordon Wetzstein, Feb 2022
+* **Stanford University**, Talk invited by Prof. Gordon Wetzstein, Feb 2022  
   Metasurface optics towards next-generation imaging systems
 
 <!-- ## <span class="colorTitle"> Skills </span> -->
