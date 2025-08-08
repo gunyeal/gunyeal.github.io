@@ -112,7 +112,7 @@ layout: homepage
         <p>Manu Gopakumar*, <u><b>Gun-Yeal Lee*</b></u>, Suyeon Choi, Brian Chao, Yifan Peng, Jonghyun Kim, Gordon Wetzstein (*equal contribution)</p>
         <p><b>Nature 2024</b></p>
         <p></p>
-        <p><a href="https://www.nature.com/articles/s41586-024-07386-0">[Link]</a><a href="https://www.computationalimaging.org/publications/holographicar/">[Project Page]</a> <b>[Citations: 164]</b></p>
+        <p><a href="https://www.nature.com/articles/s41586-024-07386-0">[Link]</a><a href="https://www.computationalimaging.org/publications/holographicar/">[Project Page]</a><a href="https://news.stanford.edu/stories/2024/05/3d-augmented-reality-with-regular-glasses">[Stanford News]</a> <b>[Citations: 164]</b></p>
     </div>
 </div>
 <hr style="height:0.3px; margin-top:0; margin-bottom:0">
