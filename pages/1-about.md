@@ -112,7 +112,7 @@ layout: homepage
         <p>Manu Gopakumar*, <u><b>Gun-Yeal Lee*</b></u>, Suyeon Choi, Brian Chao, Yifan Peng, Jonghyun Kim, Gordon Wetzstein (*equal contribution)</p>
         <p><b>Nature 2024</b></p>
         <p></p>
-        <p><a href="https://www.nature.com/articles/s41586-024-07386-0">[Link]</a><a href="https://www.computationalimaging.org/publications/holographicar/">[Project Page]</a><a href="https://news.stanford.edu/stories/2024/05/3d-augmented-reality-with-regular-glasses">[Stanford News]</a> <b>[Citations: 164]</b></p>
+        <p><a href="https://www.nature.com/articles/s41586-024-07386-0">[Link]</a><a href="https://www.computationalimaging.org/publications/holographicar/">[Project Page]</a><a href="https://news.stanford.edu/stories/2024/05/3d-augmented-reality-with-regular-glasses">[Stanford News]</a> <b>[Citations: 238]</b></p>
     </div>
 </div>
 <hr style="height:0.3px; margin-top:0; margin-bottom:0">
@@ -126,7 +126,7 @@ layout: homepage
         <p><u><b>Gun-Yeal Lee*</b></u>, Jong-Young Hong*, SoonHyoung Hwang, Seokil Moon, Hyeokjung Kang, Sohee Jeon, Hwi Kim, Jun-Ho Jeong, Byoungho Lee (*equal contribution)</p>
         <p><b>Nature Communications 2018</b></p>
         <!-- <p>Large-area metalens for wide viewing augmented reality</p> -->
-        <p><a href="https://www.nature.com/articles/s41467-018-07011-5">[Link]</a> <b>[Citations: 567]</b></p>
+        <p><a href="https://www.nature.com/articles/s41467-018-07011-5">[Link]</a> <b>[Citations: 600]</b></p>
     </div>
 </div>
 <hr style="height:0.3px; margin-top:0; margin-bottom:0">
@@ -141,7 +141,7 @@ layout: homepage
         <h2>Complete amplitude and phase control of light using broadband holographic metasurfaces</h2>
         <p><u><b>Gun-Yeal Lee</b></u>, Gwanho Yoon, Seung-Yeol Lee, Hansik Yun, Jaebum Cho, Kyookeun Lee, Hwi Kim, Junsuk Rho, Byoungho Lee</p>
         <p><b>Nanoscale 2018</b></p>
-        <p><a href="https://arxiv.org/abs/1706.09632">[Link]</a> <b>[Citations: 439]</b></p>
+        <p><a href="https://arxiv.org/abs/1706.09632">[Link]</a> <b>[Citations: 456]</b></p>
     </div>
 </div>
 <hr style="height:0.3px; margin-top:0; margin-bottom:0">

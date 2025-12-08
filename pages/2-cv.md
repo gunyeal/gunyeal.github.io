@@ -6,8 +6,8 @@ layout: page
 
 <div style="text-align: right">
 
-Last update: Aug 12, 2024
-<a href="https://gunyeal.github.io/assets/GYLee-CV-240930.pdf">[PDF]</a>
+Last update: Dec 1, 2025
+<a href="https://gunyeal.github.io/assets/GYLee-CV-251130.pdf">[PDF]</a>
 
 </div>
 
@@ -101,7 +101,10 @@ Teaching
 <hr style="height:0.3px; margin-top:0; margin-bottom:0">
 
 ## Invited Talks
-
+* **Stanford SCIEN Colloquium**, Invited Talk, May 2025
+  Nanophotonics and AI for display and imaging system applications
+* **SID Display Week 2025**, Invited Talk, May 2025
+  Nanophotonics and AI for augmented reality and imaging applications
 * **KAIST**, Seminar, Sept 2024  
   Nanophotonics and AI for AR displays and imaging applications
 * **Seoul National University**, Seminar, Sept 2024  
@@ -128,6 +131,17 @@ Teaching
   Meta-Optics: Fundamentals and Design methods
 * **Stanford University**, Talk invited by Prof. Gordon Wetzstein, Feb 2022  
   Metasurface optics towards next-generation imaging systems
+
+
+<!-- ## Professional Service -->
+<hr style="height:0.3px; margin-top:0; margin-bottom:0">
+
+## Professional Service
+* **Journal Reviewer**
+  Nature, Nature Reviews Electrical Engineering, Science Advances, Light: Science & Applications, Optica, npj Nanophotonics, Optics Express, Optics Letters, ACS Photonics, Nanophotonics, Scientific Reports
+* **Conference Reviewer**
+  ACM SIGGRAPH, ACM SIGGRAPH Asia, IEEE International Symposium on Mixed and Augmented Reality
+
 
 <!-- ## <span class="colorTitle"> Skills </span> -->
 <hr style="height:0.3px; margin-top:0; margin-bottom:0">
