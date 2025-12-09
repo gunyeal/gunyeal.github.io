@@ -101,9 +101,9 @@ Teaching
 <hr style="height:0.3px; margin-top:0; margin-bottom:0">
 
 ## Invited Talks
-* **Stanford SCIEN Colloquium**, Invited Talk, May 2025
+* **Stanford SCIEN Colloquium**, Invited Talk, May 2025  
   Nanophotonics and AI for display and imaging system applications
-* **SID Display Week 2025**, Invited Talk, May 2025
+* **SID Display Week 2025**, Invited Talk, May 2025  
   Nanophotonics and AI for augmented reality and imaging applications
 * **KAIST**, Seminar, Sept 2024  
   Nanophotonics and AI for AR displays and imaging applications
@@ -137,9 +137,9 @@ Teaching
 <hr style="height:0.3px; margin-top:0; margin-bottom:0">
 
 ## Professional Service
-* **Journal Reviewer**
+* **Journal Reviewer**  
   Nature, Nature Reviews Electrical Engineering, Science Advances, Light: Science & Applications, Optica, npj Nanophotonics, Optics Express, Optics Letters, ACS Photonics, Nanophotonics, Scientific Reports
-* **Conference Reviewer**
+* **Conference Reviewer**  
   ACM SIGGRAPH, ACM SIGGRAPH Asia, IEEE International Symposium on Mixed and Augmented Reality
 
 
