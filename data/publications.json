@@ -1,0 +1,279 @@
+{
+    "publications": [
+        {
+            "title": "Freeform metasurface color router for deep submicron pixel image sensors",
+            "authors": "Changhyun Kim, Jongwoo Hong, Junhyeok Jang, Gun-Yeal Lee, Youngjin Kim, Yoonchan Jeong, and Byoungho Lee",
+            "journal": "Science Advances",
+            "volume": "10",
+            "issue": "22",
+            "year": "2024",
+            "link": "https://www.science.org/doi/full/10.1126/sciadv.adn9000",
+            "image": null,
+            "featured": false
+        },
+        {
+            "title": "Full-colour 3D holographic augmented-reality displays with metasurface waveguides",
+            "authors": "Manu Gopakumar†, Gun-Yeal Lee†, Suyeon Choi, Brian Chao, Yifan Peng, Jonghyun Kim, and Gordon Wetzstein",
+            "journal": "Nature",
+            "volume": "629",
+            "year": "2024",
+            "link": "https://www.nature.com/articles/s41586-024-07386-0",
+            "projectPage": "https://www.computationalimaging.org/publications/holographicar/",
+            "news": "https://news.stanford.edu/stories/2024/05/3d-augmented-reality-with-regular-glasses",
+            "image": "assets/photos/figure-arwaveguide.jpg",
+            "featured": true
+        },
+        {
+            "title": "Neural Holographic Near-eye Displays for Virtual Reality",
+            "authors": "Suyeon Choi, Manu Gopakumar, Brian Chao, Gun-Yeal Lee, Jonghyun Kim, and Gordon Wetzstein",
+            "journal": "ACM SIGGRAPH 2023 Emerging Technologies",
+            "year": "2023",
+            "link": "https://dl.acm.org/doi/abs/10.1145/3588037.3595395",
+            "image": null,
+            "featured": false
+        },
+        {
+            "title": "Dispersion-engineered Metasurface Doublet Design for Broadband and Wide-angle Operation in the Visible Range",
+            "authors": "Junhyeok Jang, Gun-Yeal Lee, Youngjin Kim, Changhyun Kim, Yoonchan Jeong, and Byoungho Lee",
+            "journal": "IEEE Photonics Journal",
+            "volume": "15",
+            "issue": "4",
+            "year": "2023",
+            "link": "https://ieeexplore.ieee.org/abstract/document/10163790",
+            "image": null,
+            "featured": false
+        },
+        {
+            "title": "Scalable manufacturing of high-index atomic layer–polymer hybrid metasurfaces for metaphotonics in the visible",
+            "authors": "Joohoon Kim, Junhwa Seong, Wonjoong Kim, Gun-Yeal Lee, Seokwoo Kim, Hongyoon Kim, Seong-Won Moon, Dong Kyo Oh, Younghwan Yang, Jeonghoon Park, Jaehyuck Jang, Yeseul Kim, Minsu Jeong, Chanwoong Park, Hojung Choi, Gyoseon Jeon, Kyung-il Lee, Dong Hyun Yoon, Namkyoo Park, Byoungho Lee, Heon Lee, and Junsuk Rho",
+            "journal": "Nature Materials",
+            "volume": "22",
+            "issue": "4",
+            "year": "2023",
+            "link": "https://www.nature.com/articles/s41563-023-01485-5",
+            "image": null,
+            "featured": false
+        },
+        {
+            "title": "Spiral metalens for phase contrast imaging",
+            "authors": "Youngjin Kim, Gun-Yeal Lee, Jangwoon Sung, Junhyeok Jang, and Byoungho Lee",
+            "journal": "Advanced Functional Materials",
+            "volume": "32",
+            "issue": "5",
+            "year": "2021",
+            "link": "https://onlinelibrary.wiley.com/doi/full/10.1002/adfm.202106050",
+            "image": null,
+            "featured": false
+        },
+        {
+            "title": "Independent multichannel wavefront modulation for angle multiplexed meta-holograms",
+            "authors": "Junhyeok Jang†, Gun-Yeal Lee†, Jangwoon Sung, and Byoungho Lee",
+            "journal": "Advanced Optical Materials",
+            "volume": "9",
+            "issue": "17",
+            "year": "2021",
+            "link": "https://onlinelibrary.wiley.com/doi/full/10.1002/adom.202100678",
+            "image": null,
+            "featured": false
+        },
+        {
+            "title": "Polarization dependent asymmetric transmission using bifacial metasurface",
+            "authors": "Jangwoon Sung, Gun-Yeal Lee, Chulsoo Choi, Jongwoo Hong, and Byoungho Lee",
+            "journal": "Nanoscale Horizons",
+            "volume": "5",
+            "issue": "11",
+            "year": "2020",
+            "link": "https://pubs.rsc.org/en/content/articlelanding/2020/nh/d0nh00319k",
+            "image": null,
+            "featured": false
+        },
+        {
+            "title": "Metasurface optics for imaging applications",
+            "authors": "Gun-Yeal Lee, Jangwoon Sung, and Byoungho Lee",
+            "journal": "MRS Bulletin",
+            "volume": "45",
+            "issue": "3",
+            "year": "2020",
+            "link": "https://link.springer.com/article/10.1557/mrs.2020.64",
+            "image": null,
+            "featured": false
+        },
+        {
+            "title": "Progresses in the practical metasurface for holography and lens",
+            "authors": "Jangwoon Sung, Gun-Yeal Lee, and Byoungho Lee",
+            "journal": "Nanophotonics",
+            "volume": "8",
+            "issue": "10",
+            "year": "2019",
+            "link": "https://www.degruyter.com/document/doi/10.1515/nanoph-2019-0203/html?lang=en",
+            "image": null,
+            "featured": false
+        },
+        {
+            "title": "Metasurface with nanostructured Ge2Sb2Te5 as a platform for broadband‐operating wavefront switch",
+            "authors": "Chulsoo Choi, Seung-Yeol Lee, Sang-Eun Mun, Gun-Yeal Lee, Jangwoon Sung, Hansik Yun, Jong-Heon Yang, Hee-Ok Kim, Chi-Young Hwang, and Byoungho Lee",
+            "journal": "Advanced Optical Materials",
+            "volume": "7",
+            "issue": "12",
+            "year": "2019",
+            "link": "https://onlinelibrary.wiley.com/doi/full/10.1002/adom.201900171",
+            "image": null,
+            "featured": false
+        },
+        {
+            "title": "Augmented reality near-eye display using Pancharatnam-Berry phase lenses",
+            "authors": "Seokil Moon, Chang-Kun Lee, Seung-Woo Nam, Changwon Jang, Gun-Yeal Lee, Wontaek Seo, Geeyoung Sung, Hong-Seok Lee, and Byoungho Lee",
+            "journal": "Scientific Reports",
+            "volume": "9",
+            "issue": "1",
+            "year": "2019",
+            "link": "https://www.nature.com/articles/s41598-019-42979-0",
+            "image": null,
+            "featured": false
+        },
+        {
+            "title": "Single-layer bifacial metasurface: full-space visible light control",
+            "authors": "Jangwoon Sung†, Gun-Yeal Lee†, Chulsoo Choi, Jongwoo Hong, and Byoungho Lee",
+            "journal": "Advanced Optical Materials",
+            "volume": "7",
+            "issue": "8",
+            "year": "2019",
+            "link": "https://onlinelibrary.wiley.com/doi/full/10.1002/adom.201801748",
+            "image": null,
+            "featured": false
+        },
+        {
+            "title": "Recent advances in metasurface hologram technologies",
+            "authors": "Gun-Yeal Lee, Jangwoon Sung, and Byoungho Lee",
+            "journal": "ETRI Journal",
+            "volume": "41",
+            "issue": "1",
+            "year": "2019",
+            "link": "https://onlinelibrary.wiley.com/doi/full/10.4218/etrij.2018-0532",
+            "notes": "(Best Paper Award)",
+            "image": null,
+            "featured": false
+        },
+        {
+            "title": "Metasurface eyepiece for augmented reality",
+            "authors": "Gun-Yeal Lee†, Jongyoung Hong†, Soonhyoung Hwang, Seungjae Lee, Hwi Kim, Joonho Jung, and Byoungho Lee",
+            "journal": "Nature Communications",
+            "volume": "9",
+            "issue": "1",
+            "year": "2018",
+            "link": "https://www.nature.com/articles/s41467-018-07011-5",
+            "image": "assets/photos/figure-metalens-ar.png",
+            "featured": true
+        },
+        {
+            "title": "Ultracompact broadband plasmonic polarimeter",
+            "authors": "Kyookeun Lee, Hansik Yun, Sang-Eun Mun, Gun-Yeal Lee, Jangwoon Sung, and Byoungho Lee",
+            "journal": "Laser & Photonics Reviews",
+            "volume": "12",
+            "issue": "3",
+            "year": "2018",
+            "link": "https://onlinelibrary.wiley.com/doi/full/10.1002/lpor.201700297",
+            "image": null,
+            "featured": false
+        },
+        {
+            "title": "Numerical and Experimental Study on Multi-Focal Metallic Fresnel Zone Plates Designed by the Phase Selection Rule via Virtual Point Sources",
+            "authors": "Jinseob Kim, Hyuntai Kim, Gun-Yeal Lee, Juhwan Kim, Byoungho Lee, and Yoonchan Jeong",
+            "journal": "Applied Sciences",
+            "volume": "8",
+            "issue": "3",
+            "year": "2018",
+            "link": "https://www.mdpi.com/2076-3417/8/3/449",
+            "image": null,
+            "featured": false
+        },
+        {
+            "title": "Complete amplitude and phase control of light using broadband holographic metasurface",
+            "authors": "Gun-Yeal Lee, Gwanho Yoon, Seung-Yeol Lee, Hansik Yun, Jaebum Cho, Kyookeun Lee, Hwi Kim, Junsuk Rho, and Byoungho Lee",
+            "journal": "Nanoscale",
+            "volume": "10",
+            "issue": "9",
+            "year": "2018",
+            "link": "https://pubs.rsc.org/en/content/articlelanding/2018/nr/c7nr07154j",
+            "image": "assets/photos/figure-complexhologram.png",
+            "featured": true
+        },
+        {
+            "title": "Metallic Fresnel zone plate implemented on an optical fiber facet for super-variable focusing of light",
+            "authors": "Hyuntai Kim, Jinseob Kim, Haechan An, Yohan Lee, Gun-Yeal Lee, Jeongkyun Na, Kyoungyoon Park, Seungjong Lee, Seung-Yeol Lee, Byoungho Lee, and Yoonchan Jeong",
+            "journal": "Optics Express",
+            "volume": "25",
+            "issue": "24",
+            "year": "2017",
+            "link": "https://opg.optica.org/oe/fulltext.cfm?uri=oe-25-24-30290&id=377022",
+            "image": null,
+            "featured": false
+        },
+        {
+            "title": "Compact generation of Airy beams with C-aperture metasurface",
+            "authors": "Eui-Young Song†, Gun-Yeal Lee†, Hyeonsoo Park, Joonsoo Kim, Jongwoo Hong, Hwi Kim, and Byoungho Lee",
+            "journal": "Advanced Optical Materials",
+            "volume": "5",
+            "issue": "10",
+            "year": "2017",
+            "link": "https://onlinelibrary.wiley.com/doi/full/10.1002/adom.201601028",
+            "image": null,
+            "featured": false
+        },
+        {
+            "title": "Near-field focus steering along arbitrary trajectory via multi-lined distributed nanoslits",
+            "authors": "Gun-Yeal Lee, Seung-Yeol Lee, Hansik Yun, Hyeonsoo Park, Joonsoo Kim, Kyookeun Lee, and Byoungho Lee",
+            "journal": "Scientific Reports",
+            "volume": "6",
+            "issue": "1",
+            "year": "2016",
+            "link": "https://www.nature.com/articles/srep33317",
+            "image": null,
+            "featured": false
+        },
+        {
+            "title": "Interferometric control of plasmonic resonator based on polarization-sensitive excitation of surface plasmon polaritons",
+            "authors": "Kyookeun Lee, Joonsoo Kim, Hansik Yun, Gun-Yeal Lee, and Byoungho Lee",
+            "journal": "Optics Express",
+            "volume": "24",
+            "issue": "19",
+            "year": "2016",
+            "link": "https://opg.optica.org/oe/fulltext.cfm?uri=oe-24-19-21861&id=349986",
+            "image": null,
+            "featured": false
+        },
+        {
+            "title": "A double-lined metasurface for plasmonic complex-field generation",
+            "authors": "Eui-Young Song, Seung-Yeol Lee, Jongwoo Hong, Kyookeun Lee, Yohan Lee, Gun-Yeal Lee, Hwi Kim, and Byoungho Lee",
+            "journal": "Laser and Photonics Reviews",
+            "volume": "10",
+            "issue": "2",
+            "year": "2016",
+            "link": "https://onlinelibrary.wiley.com/doi/full/10.1002/lpor.201500245",
+            "image": null,
+            "featured": false
+        },
+        {
+            "title": "Plasmonic directional beam switching with tilted nanoslit array surrounded by gratings",
+            "authors": "Seung-Yeol Lee, Gun-Yeal Lee, and Byoungho Lee",
+            "journal": "IEEE Journal of Lightwave Technology",
+            "volume": "34",
+            "issue": "4",
+            "year": "2016",
+            "link": "https://opg.optica.org/jlt/abstract.cfm?uri=jlt-34-4-1368",
+            "image": null,
+            "featured": false
+        },
+        {
+            "title": "Polarization-multiplexed plasmonic phase generation with distributed nanoslits",
+            "authors": "Seung-Yeol Lee, Kyuho Kim, Gun-Yeal Lee, and Byoungho Lee",
+            "journal": "Optics Express",
+            "volume": "23",
+            "issue": "12",
+            "year": "2015",
+            "link": "https://opg.optica.org/oe/fulltext.cfm?uri=oe-23-12-15598&id=320081",
+            "image": null,
+            "featured": false
+        }
+    ]
+}

@@ -1,11 +1,103 @@
----
-layout: default
-permalink: "/news/"
-title: "News"
----
+<!DOCTYPE html>
+<html lang="en">
 
-{% if site.show_excerpts %}
-  {% include home.html %}
-{% else %}
-  {% include archive.html title="Posts" %}
-{% endif %}
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Gun-Yeal Lee">
+  <meta name="description"
+    content="Gun-Yeal Lee - Postdoctoral Researcher at Stanford University, specializing in Optics, Photonics, Nanophotonics, and Metasurfaces.">
+  <title>Gun-Yeal Lee</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <!-- Favicon (Stanford) -->
+  <link rel="icon" type="image/png" href="//www-media.stanford.edu/assets/favicon/favicon-96x96.png" sizes="96x96">
+  <link rel="icon" type="image/png" href="//www-media.stanford.edu/assets/favicon/favicon-32x32.png" sizes="32x32">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+  <!-- Navigation -->
+  <nav>
+    <a href="index.html" class="logo">Gun-Yeal Lee</a>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="cv.html">CV</a>
+      <a href="publications.html">Publications</a>
+    </div>
+  </nav>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="profile-container">
+        <img src="assets/gylee_2023.jpeg" alt="Gun-Yeal Lee" class="profile-photo">
+      </div>
+      <div class="bio">
+        <h1>Gun-Yeal Lee</h1>
+        <p class="title">Postdoctoral Researcher at Stanford University</p>
+        <p>I am a Postdoctoral Researcher at Stanford University, working with Prof. <a
+            href="https://web.stanford.edu/~gordonwz/" target="_blank">Gordon Wetzstein</a> at the <a
+            href="https://www.computationalimaging.org/" target="_blank">Stanford Computational Imaging Lab</a>. I am
+          broadly interested in Optics and Photonics, with a particular focus on nanophotonics and metasurfaces.</p>
+        <p>My recent research at the intersection of optics and computer vision focuses on developing next-generation
+          optical imaging, display, and computing systems, utilizing advanced photonic devices and AI-driven algorithms.
+        </p>
+        <p>I completed my PhD at Seoul National University in 2021 under the guidance of Prof. <a
+            href="https://scholar.google.com/citations?hl=en&user=VExwDP4AAAAJ" target="_blank">Byoungho Lee</a> at the
+          <a href="http://oeqelab.snu.ac.kr/" target="_blank">Optical Engineering and Quantum Electronics Lab</a>.</p>
+        <div class="social-links">
+          <a href="mailto:gunyeal@stanford.edu" title="Email"><i class="fas fa-envelope"></i></a>
+          <a href="https://scholar.google.com/citations?user=SlXpVNkAAAAJ&hl=en" target="_blank"
+            title="Google Scholar"><i class="fas fa-graduation-cap"></i></a>
+          <a href="https://www.linkedin.com/in/gun-yeal-lee-4b7b54224" target="_blank" title="LinkedIn"><i
+              class="fab fa-linkedin"></i></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- News Section -->
+    <section class="news-section">
+      <div class="section-header">
+        <h2>Latest News</h2>
+      </div>
+      <div class="news-grid" id="news-grid">
+        <!-- News items loaded dynamically from news.json -->
+      </div>
+      <div class="news-toggle">
+        <button id="news-toggle-btn" onclick="toggleNews()">
+          <i class="fas fa-chevron-down"></i> Show More
+        </button>
+      </div>
+    </section>
+
+    <!-- Featured Publications -->
+    <section class="publications-section">
+      <div class="section-header">
+        <h2>Featured Publications</h2>
+        <a href="publications.html">View All →</a>
+      </div>
+      <div class="publications-grid" id="featured-publications">
+        <!-- Featured publications loaded dynamically from publications.json -->
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2024 Gun-Yeal Lee · Stanford University</p>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="js/main.js"></script>
+</body>
+
+</html>

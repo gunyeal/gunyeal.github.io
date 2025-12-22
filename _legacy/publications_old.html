@@ -1,0 +1,24 @@
+---
+layout: page
+permalink: "/publications2/"
+title: "Publications2"
+---
+
+<div class="publications">
+<!--     <h1>PUBLICATIONS</h1> -->
+    <input type="text" id="searchInput" onkeyup="searchPublications()" placeholder="Search...">
+    <!-- Publications list -->
+    <div id="publicationsList">
+        {% for publication in site.data.publications %}
+        <div class="publication">
+            <img src="{{ publication.image }}" alt="Publication image" style="width:100px; height:auto;">
+            <h2>{{ publication.title }}</h2>
+            <p>{{ publication.authors }}</p>
+            <p><i>{{ publication.journal }}</i></p>
+            <a href="{{ publication.link }}">Read More</a>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+
+
