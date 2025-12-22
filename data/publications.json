@@ -20,7 +20,7 @@
             "link": "https://www.nature.com/articles/s41586-024-07386-0",
             "projectPage": "https://www.computationalimaging.org/publications/holographicar/",
             "news": "https://news.stanford.edu/stories/2024/05/3d-augmented-reality-with-regular-glasses",
-            "image": "assets/photos-publications/figure-arwaveguide.jpg",
+            "image": "assets/photos-publications/figure-2024-nature.jpg",
             "featured": true
         },
         {
@@ -29,7 +29,7 @@
             "journal": "ACM SIGGRAPH 2023 Emerging Technologies",
             "year": "2023",
             "link": "https://dl.acm.org/doi/abs/10.1145/3588037.3595395",
-            "image": null,
+            "image": "assets/photos-publications/figure-2023-etech.jpg",
             "featured": false
         },
         {
@@ -40,7 +40,7 @@
             "issue": "4",
             "year": "2023",
             "link": "https://ieeexplore.ieee.org/abstract/document/10163790",
-            "image": null,
+            "image": "assets/photos-publications/figure-2023-IEEE.jpg",
             "featured": false
         },
         {
@@ -51,7 +51,7 @@
             "issue": "4",
             "year": "2023",
             "link": "https://www.nature.com/articles/s41563-023-01485-5",
-            "image": null,
+            "image": "assets/photos-publications/figure-2023-natmater.png",
             "featured": false
         },
         {
@@ -62,7 +62,7 @@
             "issue": "5",
             "year": "2021",
             "link": "https://onlinelibrary.wiley.com/doi/full/10.1002/adfm.202106050",
-            "image": null,
+            "image": "assets/photos-publications/figure-2021-afm.png",
             "featured": false
         },
         {
@@ -73,7 +73,7 @@
             "issue": "17",
             "year": "2021",
             "link": "https://onlinelibrary.wiley.com/doi/full/10.1002/adom.202100678",
-            "image": null,
+            "image": "assets/photos-publications/figure-2021-aom.png",
             "featured": false
         },
         {
@@ -162,7 +162,7 @@
             "issue": "1",
             "year": "2018",
             "link": "https://www.nature.com/articles/s41467-018-07011-5",
-            "image": "assets/photos-publications/figure-metalens-ar.png",
+            "image": "assets/photos-publications/figure-2018-natcommun.png",
             "featured": true
         },
         {
@@ -195,7 +195,7 @@
             "issue": "9",
             "year": "2018",
             "link": "https://pubs.rsc.org/en/content/articlelanding/2018/nr/c7nr07154j",
-            "image": "assets/photos-publications/figure-complexhologram.png",
+            "image": "assets/photos-publications/figure-2018-nanoscale.png",
             "featured": true
         },
         {
