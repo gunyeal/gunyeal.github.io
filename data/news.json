@@ -1,28 +1,16 @@
 {
   "news": [
     {
-      "date": "December 2024",
-      "text": "Invited talk at Stanford SCIEN Colloquium"
+      "date": "May 2025",
+      "text": "Invited talks at SID Display Week 2025 and Stanford SCIEN Colloquium"
     },
     {
       "date": "May 2024",
       "text": "Our paper on holographic AR displays published in <strong>Nature</strong>! 🎉"
     },
     {
-      "date": "February 2024",
-      "text": "Invited seminars at Samsung Research and POSTECH"
-    },
-    {
-      "date": "October 2023",
-      "text": "Presented at GoGE Workshop, Seoul National University"
-    },
-    {
       "date": "September 2022",
       "text": "Started postdoctoral research at Stanford University"
-    },
-    {
-      "date": "August 2021",
-      "text": "Received Outstanding Doctoral Thesis Award from SNU"
     }
   ]
 }
