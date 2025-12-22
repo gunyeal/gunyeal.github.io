@@ -21,6 +21,41 @@
 
     <!-- Styles -->
     <link rel="stylesheet" href="css/styles.css">
+
+    <style>
+        /* Compact CV item styling for awards and talks */
+        .cv-compact .cv-item {
+            margin-bottom: 0.8rem;
+            padding-left: 1rem;
+            padding-bottom: 0.8rem;
+        }
+
+        .cv-compact .cv-item h3 {
+            display: inline;
+            font-size: 1rem;
+        }
+
+        .cv-compact .cv-item .date {
+            display: inline;
+            margin-left: 0.5rem;
+        }
+
+        .cv-compact .cv-item .date::before {
+            content: "—";
+            margin-right: 0.5rem;
+            color: var(--color-text-light);
+        }
+
+        .cv-compact .cv-item p {
+            margin-top: 0.2rem;
+            font-size: 0.95rem;
+        }
+
+        .cv-compact .cv-item .org {
+            color: var(--color-text-light);
+            font-size: 0.9rem;
+        }
+    </style>
 </head>
 
 <body>
@@ -51,25 +86,25 @@
             <div class="cv-item">
                 <h3>Postdoctoral Researcher</h3>
                 <span class="date">September 2022 – Present</span>
-                <p>Stanford University, USA</p>
-                <p>Advisor: Prof. <a href="https://web.stanford.edu/~gordonwz/" target="_blank">Gordon Wetzstein</a></p>
+                <p>Stanford University, USA · Advisor: Prof. <a href="https://web.stanford.edu/~gordonwz/"
+                        target="_blank">Gordon Wetzstein</a></p>
             </div>
 
             <div class="cv-item">
                 <h3>Postdoctoral Researcher</h3>
                 <span class="date">September 2021 – August 2022</span>
-                <p>Seoul National University, Republic of Korea</p>
-                <p>Advisor: Prof. <a href="https://scholar.google.com/citations?hl=en&user=VExwDP4AAAAJ"
-                        target="_blank">Byoungho Lee</a></p>
+                <p>Seoul National University, Republic of Korea · Advisor: Prof. <a
+                        href="https://scholar.google.com/citations?hl=en&user=VExwDP4AAAAJ" target="_blank">Byoungho
+                        Lee</a></p>
                 <p><em>Alternative military service until August 2022</em></p>
             </div>
 
             <div class="cv-item">
                 <h3>Ph.D. in Electrical and Computer Engineering</h3>
                 <span class="date">September 2015 – August 2021</span>
-                <p>Seoul National University, Republic of Korea</p>
-                <p>Advisor: Prof. <a href="https://scholar.google.com/citations?hl=en&user=VExwDP4AAAAJ"
-                        target="_blank">Byoungho Lee</a></p>
+                <p>Seoul National University, Republic of Korea · Advisor: Prof. <a
+                        href="https://scholar.google.com/citations?hl=en&user=VExwDP4AAAAJ" target="_blank">Byoungho
+                        Lee</a></p>
             </div>
 
             <div class="cv-item">
@@ -79,104 +114,114 @@
             </div>
         </section>
 
-        <!-- Honors & Awards -->
-        <section class="cv-section">
+        <!-- Honors & Awards (Compact) -->
+        <section class="cv-section cv-compact">
             <h2>Honors & Awards</h2>
 
             <div class="cv-item">
                 <h3>NRF Postdoctoral Fellowship</h3>
                 <span class="date">2022</span>
-                <p>Nurturing Next-generation Researchers Program, National Research Foundation of Korea (NRF)</p>
+                <p class="org">Nurturing Next-generation Researchers Program, National Research Foundation of Korea
+                    (NRF)</p>
             </div>
 
             <div class="cv-item">
                 <h3>Outstanding Doctoral Thesis Award</h3>
                 <span class="date">2021</span>
-                <p>Department of Electrical and Computer Engineering, Seoul National University</p>
+                <p class="org">Department of Electrical and Computer Engineering, Seoul National University</p>
             </div>
 
             <div class="cv-item">
                 <h3>Best Graduate Student Award</h3>
                 <span class="date">2021</span>
-                <p>Seoul National University</p>
+                <p class="org">Seoul National University</p>
             </div>
 
             <div class="cv-item">
                 <h3>Doyeon Academic Paper Award</h3>
                 <span class="date">2020</span>
-                <p>Inter-university Semiconductor Research Center, Seoul National University</p>
+                <p class="org">Inter-university Semiconductor Research Center, Seoul National University</p>
             </div>
 
             <div class="cv-item">
                 <h3>Best Paper Award of 2020</h3>
                 <span class="date">2020</span>
-                <p>WILEY ETRI Journal, Electronics and Telecommunications Research Institute (ETRI)</p>
+                <p class="org">WILEY ETRI Journal, Electronics and Telecommunications Research Institute (ETRI)</p>
             </div>
 
             <div class="cv-item">
                 <h3>SPIE Optics and Photonics Education Scholarship</h3>
                 <span class="date">2020</span>
-                <p>International Society for Optics and Photonics (SPIE), USA</p>
+                <p class="org">International Society for Optics and Photonics (SPIE), USA</p>
             </div>
 
             <div class="cv-item">
                 <h3>Incubic/Milton Chang Award</h3>
                 <span class="date">2017</span>
-                <p>Optical Society of America (OSA), Washington, USA</p>
+                <p class="org">Optical Society of America (OSA), Washington, USA</p>
             </div>
 
             <div class="cv-item">
                 <h3>Emil-Wolf Award – Finalist</h3>
                 <span class="date">2017</span>
-                <p>Optical Society of America (OSA), Washington, USA</p>
+                <p class="org">Optical Society of America (OSA), Washington, USA</p>
             </div>
 
             <div class="cv-item">
                 <h3>Best Paper Award – Grand Prize</h3>
                 <span class="date">2016</span>
-                <p>1st place out of 600 papers, Nano Korea 2016</p>
+                <p class="org">1st place out of 600 papers, Nano Korea 2016</p>
             </div>
         </section>
 
-        <!-- Invited Talks -->
-        <section class="cv-section">
+        <!-- Invited Talks (Compact) -->
+        <section class="cv-section cv-compact">
             <h2>Invited Talks</h2>
 
             <div class="cv-item">
-                <h3>Stanford SCIEN Colloquium</h3>
+                <h3>SID Display Week</h3>
                 <span class="date">May 2025</span>
-                <p>Nanophotonics and AI for display and imaging system applications</p>
+                <p>"Nanophotonics and AI for augmented reality and imaging applications"</p>
             </div>
 
             <div class="cv-item">
-                <h3>SID Display Week 2025</h3>
-                <span class="date">May 2025</span>
-                <p>Nanophotonics and AI for augmented reality and imaging applications</p>
+                <h3>Stanford SCIEN Colloquium</h3>
+                <span class="date">Dec 2024</span>
+                <p>"Nanophotonics and AI for display and imaging system applications"</p>
             </div>
 
             <div class="cv-item">
                 <h3>Apple</h3>
-                <span class="date">August 2024</span>
-                <p>Full-color 3D holographic augmented reality displays with metasurface waveguides</p>
+                <span class="date">Aug 2024</span>
+                <p>"Full-color 3D holographic augmented reality displays with metasurface waveguides"</p>
             </div>
 
             <div class="cv-item">
                 <h3>Synopsys</h3>
-                <span class="date">June 2024</span>
-                <p>3D holographic AR glasses with metasurface waveguides</p>
+                <span class="date">Jun 2024</span>
+                <p>"3D holographic AR glasses with metasurface waveguides"</p>
             </div>
 
             <div class="cv-item">
-                <h3>Samsung Research & POSTECH</h3>
-                <span class="date">February 2024</span>
-                <p>Recent advances in Meta-optics for imaging and AR/VR devices</p>
+                <h3>Samsung Research</h3>
+                <span class="date">Feb 2024</span>
+                <p>"Recent advances in Meta-optics for imaging and AR/VR devices"</p>
+            </div>
+
+            <div class="cv-item">
+                <h3>POSTECH, Dept. of Mechanical Engineering</h3>
+                <span class="date">Feb 2024</span>
+                <p>"Recent advances in Meta-optics for imaging and AR/VR devices"</p>
             </div>
 
             <div class="cv-item">
                 <h3>Samsung Advanced Institute of Technology (SAIT)</h3>
-                <span class="date">February 2024</span>
-                <p>Nanophotonics for optical imaging and displays</p>
+                <span class="date">Feb 2024</span>
+                <p>"Nanophotonics for optical imaging and displays"</p>
             </div>
+
+            <!-- NOTE: Please add more invited talks from your CV PDF here -->
+            <!-- Format: <h3>Venue/Organization</h3> <span class="date">Month Year</span> <p>"Talk Title"</p> -->
         </section>
 
         <!-- Professional Service -->

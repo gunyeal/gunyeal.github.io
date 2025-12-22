@@ -20,7 +20,7 @@
             "link": "https://www.nature.com/articles/s41586-024-07386-0",
             "projectPage": "https://www.computationalimaging.org/publications/holographicar/",
             "news": "https://news.stanford.edu/stories/2024/05/3d-augmented-reality-with-regular-glasses",
-            "image": "assets/photos/figure-arwaveguide.jpg",
+            "image": "assets/photos-publications/figure-arwaveguide.jpg",
             "featured": true
         },
         {
@@ -162,7 +162,7 @@
             "issue": "1",
             "year": "2018",
             "link": "https://www.nature.com/articles/s41467-018-07011-5",
-            "image": "assets/photos/figure-metalens-ar.png",
+            "image": "assets/photos-publications/figure-metalens-ar.png",
             "featured": true
         },
         {
@@ -195,7 +195,7 @@
             "issue": "9",
             "year": "2018",
             "link": "https://pubs.rsc.org/en/content/articlelanding/2018/nr/c7nr07154j",
-            "image": "assets/photos/figure-complexhologram.png",
+            "image": "assets/photos-publications/figure-complexhologram.png",
             "featured": true
         },
         {

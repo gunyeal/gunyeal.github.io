@@ -145,9 +145,13 @@ function renderPublications(publications, container, featuredOnly = false) {
                    <div class="pub-image pub-image-placeholder"></div>
                </div>`;
 
-        const venueText = pub.volume
-            ? `${pub.journal} ${pub.volume}${pub.issue ? `(${pub.issue})` : ''}, ${pub.year}`
-            : `${pub.journal}, ${pub.year}`;
+        // For featured publications: simple "Journal Year" format
+        // For full publications list: include volume/issue details
+        const venueText = featuredOnly
+            ? `${pub.journal} ${pub.year}`
+            : (pub.volume
+                ? `${pub.journal} ${pub.volume}${pub.issue ? `(${pub.issue})` : ''}, ${pub.year}`
+                : `${pub.journal}, ${pub.year}`);
 
         let links = `<a href="${pub.link}" target="_blank">Paper</a>`;
         if (pub.projectPage) links += `<a href="${pub.projectPage}" target="_blank">Project</a>`;
