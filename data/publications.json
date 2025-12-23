@@ -40,7 +40,7 @@
             "issue": "4",
             "year": "2023",
             "link": "https://ieeexplore.ieee.org/abstract/document/10163790",
-            "image": "assets/photos-publications/figure-2023-IEEE.jpg",
+            "image": "assets/photos-publications/figure-2023-IEEE.png",
             "featured": false
         },
         {
@@ -84,7 +84,7 @@
             "issue": "11",
             "year": "2020",
             "link": "https://pubs.rsc.org/en/content/articlelanding/2020/nh/d0nh00319k",
-            "image": null,
+            "image": "assets/photos-publications/figure-2020-nanoscalehorizons.png",
             "featured": false
         },
         {
@@ -95,7 +95,7 @@
             "issue": "3",
             "year": "2020",
             "link": "https://link.springer.com/article/10.1557/mrs.2020.64",
-            "image": null,
+            "image": "assets/photos-publications/figure-2020-mrs.png",
             "featured": false
         },
         {
@@ -106,7 +106,7 @@
             "issue": "10",
             "year": "2019",
             "link": "https://www.degruyter.com/document/doi/10.1515/nanoph-2019-0203/html?lang=en",
-            "image": null,
+            "image": "assets/photos-publications/figure-2019-nanophotonics.png",
             "featured": false
         },
         {
@@ -117,7 +117,7 @@
             "issue": "12",
             "year": "2019",
             "link": "https://onlinelibrary.wiley.com/doi/full/10.1002/adom.201900171",
-            "image": null,
+            "image": "assets/photos-publications/figure-2019-aom-gst.png",
             "featured": false
         },
         {
@@ -128,7 +128,7 @@
             "issue": "1",
             "year": "2019",
             "link": "https://www.nature.com/articles/s41598-019-42979-0",
-            "image": null,
+            "image": "assets/photos-publications/figure-2019-scirep.png",
             "featured": false
         },
         {
@@ -139,7 +139,7 @@
             "issue": "8",
             "year": "2019",
             "link": "https://onlinelibrary.wiley.com/doi/full/10.1002/adom.201801748",
-            "image": null,
+            "image": "assets/photos-publications/figure-2019-aom-bifacial.png",
             "featured": false
         },
         {
@@ -151,7 +151,7 @@
             "year": "2019",
             "link": "https://onlinelibrary.wiley.com/doi/full/10.4218/etrij.2018-0532",
             "notes": "(Best Paper Award)",
-            "image": null,
+            "image": "assets/photos-publications/figure-2019-etri.png",
             "featured": false
         },
         {
@@ -162,7 +162,7 @@
             "issue": "1",
             "year": "2018",
             "link": "https://www.nature.com/articles/s41467-018-07011-5",
-            "image": "assets/photos-publications/figure-2018-natcommun.png",
+            "image": "assets/photos-publications/figure-2018-NCOMM.png",
             "featured": true
         },
         {
@@ -173,7 +173,7 @@
             "issue": "3",
             "year": "2018",
             "link": "https://onlinelibrary.wiley.com/doi/full/10.1002/lpor.201700297",
-            "image": null,
+            "image": "assets/photos-publications/figure-2018-LPR.png",
             "featured": false
         },
         {
@@ -184,7 +184,7 @@
             "issue": "3",
             "year": "2018",
             "link": "https://www.mdpi.com/2076-3417/8/3/449",
-            "image": null,
+            "image": "assets/photos-publications/figure-2018-AS.png",
             "featured": false
         },
         {
@@ -206,7 +206,7 @@
             "issue": "24",
             "year": "2017",
             "link": "https://opg.optica.org/oe/fulltext.cfm?uri=oe-25-24-30290&id=377022",
-            "image": null,
+            "image": "assets/photos-publications/figure-2017-OE.png",
             "featured": false
         },
         {
@@ -217,7 +217,7 @@
             "issue": "10",
             "year": "2017",
             "link": "https://onlinelibrary.wiley.com/doi/full/10.1002/adom.201601028",
-            "image": null,
+            "image": "assets/photos-publications/figure-2017-AOM.png",
             "featured": false
         },
         {
@@ -228,7 +228,7 @@
             "issue": "1",
             "year": "2016",
             "link": "https://www.nature.com/articles/srep33317",
-            "image": null,
+            "image": "assets/photos-publications/figure-2016-scirep.png",
             "featured": false
         },
         {
@@ -239,7 +239,7 @@
             "issue": "19",
             "year": "2016",
             "link": "https://opg.optica.org/oe/fulltext.cfm?uri=oe-24-19-21861&id=349986",
-            "image": null,
+            "image": "assets/photos-publications/figure-2016-OE.png",
             "featured": false
         },
         {
@@ -250,7 +250,7 @@
             "issue": "2",
             "year": "2016",
             "link": "https://onlinelibrary.wiley.com/doi/full/10.1002/lpor.201500245",
-            "image": null,
+            "image": "assets/photos-publications/figure-2016-LPR.png",
             "featured": false
         },
         {
@@ -261,7 +261,7 @@
             "issue": "4",
             "year": "2016",
             "link": "https://opg.optica.org/jlt/abstract.cfm?uri=jlt-34-4-1368",
-            "image": null,
+            "image": "assets/photos-publications/figure-2016-JLT.png",
             "featured": false
         },
         {
@@ -272,7 +272,7 @@
             "issue": "12",
             "year": "2015",
             "link": "https://opg.optica.org/oe/fulltext.cfm?uri=oe-23-12-15598&id=320081",
-            "image": null,
+            "image": "assets/photos-publications/figure-2015-OE.png",
             "featured": false
         }
     ]
