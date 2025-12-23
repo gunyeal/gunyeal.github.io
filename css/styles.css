@@ -124,6 +124,24 @@ nav {
     transform: translateY(-2px);
 }
 
+/* Hamburger Menu Button (hidden on desktop) */
+.menu-toggle {
+    display: none;
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    color: var(--color-text);
+    cursor: pointer;
+    padding: 0.5rem;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+.menu-toggle:hover {
+    background: var(--color-bg-warm);
+    color: var(--color-primary);
+}
+
 /* =========================================
    MAIN CONTENT
    ========================================= */
@@ -383,7 +401,7 @@ main {
 
 .publications-grid {
     display: grid;
-    gap: 2rem;
+    gap: 1.5rem;
 }
 
 .publication-card {
@@ -391,7 +409,7 @@ main {
     grid-template-columns: 220px 1fr;
     gap: 2rem;
     background: var(--color-card);
-    padding: 1.5rem;
+    padding: 1.2rem;
     border-radius: var(--radius-md);
     box-shadow: var(--shadow-sm);
     transition: all 0.4s ease;
@@ -536,20 +554,20 @@ main {
    CV PAGE STYLES
    ========================================= */
 .cv-section {
-    margin-bottom: 3rem;
+    margin-bottom: 1.5rem;
 }
 
 .cv-section h2 {
     font-size: 1.5rem;
     font-weight: 700;
     color: var(--color-text);
-    margin-bottom: 1.5rem;
+    margin-bottom: 0.8rem;
     padding-bottom: 0.5rem;
     border-bottom: 3px solid var(--color-primary);
 }
 
 .cv-item {
-    margin-bottom: 1.5rem;
+    margin-bottom: 1rem;
     padding-left: 1rem;
     border-left: 3px solid var(--color-border);
 }
@@ -562,7 +580,7 @@ main {
     font-size: 1.1rem;
     font-weight: 600;
     color: var(--color-text);
-    margin-bottom: 0.3rem;
+    margin-bottom: 0.1rem;
 }
 
 .cv-item .date {
@@ -573,7 +591,7 @@ main {
 
 .cv-item p {
     color: var(--color-text-light);
-    margin-top: 0.3rem;
+    margin-top: 0.1rem;
 }
 
 .cv-item ul {
@@ -584,6 +602,39 @@ main {
 
 .cv-item li {
     margin-bottom: 0.3rem;
+}
+
+/* CV Compact Layout (for Honors & Awards, Invited Talks) */
+.cv-compact .cv-item {
+    margin-bottom: 0.3rem;
+    padding-left: 1rem;
+    padding-bottom: 0.3rem;
+}
+
+.cv-compact .cv-item h3 {
+    display: inline;
+    font-size: 1rem;
+}
+
+.cv-compact .cv-item .date {
+    display: inline;
+    margin-left: 0.5rem;
+}
+
+.cv-compact .cv-item .date::before {
+    content: "—";
+    margin-right: 0.5rem;
+    color: var(--color-text-light);
+}
+
+.cv-compact .cv-item p {
+    margin-top: 0rem;
+    font-size: 0.95rem;
+}
+
+.cv-compact .cv-item .org {
+    color: var(--color-text-light);
+    font-size: 0.9rem;
 }
 
 /* =========================================
@@ -669,11 +720,55 @@ footer p {
 /* =========================================
    RESPONSIVE DESIGN
    ========================================= */
-@media (max-width: 900px) {
+@media (max-width: 768px) {
+    /* Mobile Navigation with Hamburger */
     nav {
         margin: 0.5rem;
         border-radius: var(--radius-md);
+        top: 0.5rem;
+        padding: 1rem 1.2rem;
     }
+    
+    .menu-toggle {
+        display: block;
+    }
+    
+    .nav-links {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background: white;
+        padding: 0 1rem;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        flex-direction: column;
+        gap: 0.5rem;
+        max-height: 0;
+        overflow: hidden;
+        opacity: 0;
+        transition: max-height 0.3s ease, opacity 0.3s ease, padding 0.3s ease;
+        border-radius: 0 0 var(--radius-md) var(--radius-md);
+    }
+    
+    .nav-links.active {
+        max-height: 300px;
+        opacity: 1;
+        padding: 1rem;
+    }
+    
+    .nav-links a {
+        text-align: center;
+        padding: 1rem;
+        border-radius: var(--radius-sm);
+    }
+    
+    .nav-links a:hover,
+    .nav-links a.active {
+        transform: none;
+    }
+}
+
+@media (max-width: 900px) {
 
     .hero {
         grid-template-columns: 1fr;
@@ -703,11 +798,11 @@ footer p {
     }
 
     .pub-image {
-        height: auto;
         width: 100%;
-        aspect-ratio: 16 / 9;
-        object-fit: contain;
-        background: var(--color-bg-warm);
+        height: 210px;
+        object-fit: cover;
+        object-position: center;
+        display: block;
     }
 
     .news-grid {

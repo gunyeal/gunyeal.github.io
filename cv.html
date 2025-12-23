@@ -22,47 +22,16 @@
     <!-- Styles -->
     <link rel="stylesheet" href="css/styles.css">
 
-    <style>
-        /* Compact CV item styling for awards and talks */
-        .cv-compact .cv-item {
-            margin-bottom: 0.8rem;
-            padding-left: 1rem;
-            padding-bottom: 0.8rem;
-        }
-
-        .cv-compact .cv-item h3 {
-            display: inline;
-            font-size: 1rem;
-        }
-
-        .cv-compact .cv-item .date {
-            display: inline;
-            margin-left: 0.5rem;
-        }
-
-        .cv-compact .cv-item .date::before {
-            content: "—";
-            margin-right: 0.5rem;
-            color: var(--color-text-light);
-        }
-
-        .cv-compact .cv-item p {
-            margin-top: 0.2rem;
-            font-size: 0.95rem;
-        }
-
-        .cv-compact .cv-item .org {
-            color: var(--color-text-light);
-            font-size: 0.9rem;
-        }
-    </style>
 </head>
 
 <body>
     <!-- Navigation -->
     <nav>
         <a href="index.html" class="logo">Gun-Yeal Lee</a>
-        <div class="nav-links">
+        <button class="menu-toggle" onclick="toggleMenu()" aria-label="Toggle menu">
+            <i class="fas fa-bars" id="menu-icon"></i>
+        </button>
+        <div class="nav-links" id="nav-menu">
             <a href="index.html">Home</a>
             <a href="cv.html">CV</a>
             <a href="publications.html">Publications</a>

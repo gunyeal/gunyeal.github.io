@@ -4,6 +4,27 @@
  */
 
 // =========================================
+// MOBILE MENU TOGGLE
+// =========================================
+function toggleMenu() {
+    const menu = document.getElementById('nav-menu');
+    const icon = document.getElementById('menu-icon');
+
+    if (!menu || !icon) return;
+
+    menu.classList.toggle('active');
+
+    // Toggle icon between bars and X
+    if (menu.classList.contains('active')) {
+        icon.classList.remove('fa-bars');
+        icon.classList.add('fa-xmark');
+    } else {
+        icon.classList.remove('fa-xmark');
+        icon.classList.add('fa-bars');
+    }
+}
+
+// =========================================
 // NEWS TOGGLE FUNCTIONALITY
 // =========================================
 let newsExpanded = false;
