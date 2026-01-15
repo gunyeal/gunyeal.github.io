@@ -167,12 +167,17 @@ function renderPublications(publications, container, featuredOnly = false) {
                </div>`;
 
         // For featured publications: simple "Journal Year" format
-        // For full publications list: include volume/issue details
-        const venueText = featuredOnly
-            ? `${pub.journal} ${pub.year}`
-            : (pub.volume
-                ? `${pub.journal} ${pub.volume}${pub.issue ? `(${pub.issue})` : ''}, ${pub.year}`
-                : `${pub.journal}, ${pub.year}`);
+        // For full publications list: "Journal Volume, Article (Year)" format
+        let venueText;
+        if (featuredOnly) {
+            venueText = `${pub.journal} ${pub.year}`;
+        } else if (pub.volume && pub.article) {
+            venueText = `${pub.journal} ${pub.volume}, ${pub.article} (${pub.year})`;
+        } else if (pub.volume) {
+            venueText = `${pub.journal} ${pub.volume} (${pub.year})`;
+        } else {
+            venueText = `${pub.journal} (${pub.year})`;
+        }
 
         let links = `<a href="${pub.link}" target="_blank">Paper</a>`;
         if (pub.projectPage) links += `<a href="${pub.projectPage}" target="_blank">Project</a>`;
