@@ -1,5 +1,17 @@
 {
     "publications": [
+
+        {
+            "title": "Neural phase microscopy with metasurface optics for real-time and nanoscale quantitative phase imaging",
+            "authors": "Gun-Yeal Lee, Changhyun Kim, Manu Gopakumar, Youngjin Kim, Byoungho Lee, Yoonchan Jeong, and Gordon Wetzstein",
+            "journal": "Nature Communications",
+            "volume": "17",
+            "article": "1411",
+            "year": "2026",
+            "link": "https://www.nature.com/articles/s41467-025-68151-z",
+            "image": "assets/photos-publications/figure-2026-NCOMM.png",
+            "featured": true
+        },
         {
             "title": "End‐to‐End Optimization of Metalens for Broadband and Wide‐Angle Imaging",
             "authors": "Yeongmyeong Park, Youngjin Kim, Changhyun Kim, Gun-Yeal Lee, Hyeongyu Choi, Taewon Choi, Yoonchan Jeong, and Byoungho Lee",
