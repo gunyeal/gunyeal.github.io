@@ -1,0 +1,41 @@
+Optics is a core technology governing how humans and computers interact. From the LiDAR systems in autonomous vehicles to the displays in spatial computing, light is the primary carrier of information in the modern era. However, traditional optical hardware—relying on bulky, inefficient refractive elements—has become a critical bottleneck for emerging applications.
+
+Our lab aims to create next-generation optical human-computer interfaces by integrating three synergistic domains: Nanophotonics, Optical System Engineering, and Physical Artificial Intelligence (AI). We are fundamentally reshaping optical hardware to create new ways to perceive, interact with, and compute digital information.
+
+---
+
+## Nanophotonic Devices
+<!-- icon: fa-layer-group -->
+
+Conventional lenses and prisms are constrained by the natural properties of their materials, limiting device functionality and compactness. We break these limits using nanophotonics. By engineering artificial structures at the subwavelength scale, we create ultrathin metamaterials and metasurfaces that allow precise control of the wavefront, intensity, polarization, and spectrum of light.
+
+Our work has introduced unprecedented degrees of freedom in optical design, such as achieving the complete, simultaneous control of amplitude and phase in a single nanoscale device ([Lee et al., Nanoscale 2018](https://doi.org/10.1039/C7NR07154J)). Backed by extensive expertise in nanofabrication and novel material recipes, we ensure our theoretical designs translate into experimentally robust physical devices.
+
+**Related Publications:**
+- Complete amplitude and phase control of light using broadband holographic metasurface | Nanoscale (2018) | [Paper](https://pubs.rsc.org/en/content/articlelanding/2018/nr/c7nr07154j)
+
+---
+
+## Optical Systems for Imaging, Displays, and More
+<!-- icon: fa-eye -->
+
+While nanophotonics offers incredible control at the device level, its true potential is realized only when integrated into functional systems. A major focus of our lab is overcoming the fundamental trade-offs between form factor and performance in modern wearable displays.
+
+We pioneer the holistic integration of nanophotonics into full optical system prototypes. By reimagining optical architectures, we have developed see-through metasurface eyepieces that dramatically expand the field of view for immersive augmented reality ([Lee et al., Nature Communications 2018](https://doi.org/10.1038/s41467-018-07011-5)). Furthermore, we recently demonstrated the first compact, optical see-through AR system capable of delivering true 3D holographic content in a wearable form factor using inverse-designed metasurface waveguides ([Gopakumar and Lee et al., Nature 2024](https://doi.org/10.1038/s41586-024-07386-0)).
+
+**Related Publications:**
+- Metasurface eyepiece for augmented reality | Nature Communications (2018) | [Paper](https://www.nature.com/articles/s41467-018-07011-5)
+- Full-colour 3D holographic augmented-reality displays with metasurface waveguides | Nature (2024) | [Paper](https://www.nature.com/articles/s41586-024-07386-0)
+
+---
+
+## Computational Optics & Physical AI
+<!-- icon: fa-brain -->
+
+Real-world optical systems inevitably face physical limitations, optical aberrations, and nanofabrication imperfections that prevent them from achieving theoretical perfection. To bridge the gap between simulation and reality, we integrate computational optics and Physical AI into the hardware loop.
+
+By developing AI models grounded in physical principles and trained on actual experimental data, we can computationally predict, simulate, and invert complex optical processes. For instance, we use these models to computationally "pre-distort" input holograms, canceling out hardware errors and transforming a noisy prototype into a high-fidelity display. This hardware-software co-optimization extends across diverse platforms, including chip-scale quantitative phase imaging for biomedical microscopes.
+
+**Related Publications:**
+- Neural phase microscopy with metasurface optics for real-time and nanoscale quantitative phase imaging | Nature Communications (2026) | [Paper](https://www.nature.com/articles/s41467-025-68151-z)
+- Full-colour 3D holographic augmented-reality displays with metasurface waveguides | Nature (2024) | [Paper](https://www.nature.com/articles/s41586-024-07386-0)

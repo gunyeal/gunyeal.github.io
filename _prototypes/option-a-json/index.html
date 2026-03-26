@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Option A: JSON-driven Research Page</title>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="../../css/styles.css">
+</head>
+<body>
+  <nav>
+    <a href="#" class="logo">Option A: JSON</a>
+    <div class="nav-links" id="nav-menu">
+      <a href="../option-a-json/index.html" class="active">JSON Version</a>
+      <a href="../option-b-markdown/index.html">Markdown Version</a>
+    </div>
+  </nav>
+
+  <main>
+    <div class="page-header">
+      <h1>Research</h1>
+      <div id="overview"><!-- Loaded from JSON --></div>
+    </div>
+
+    <div class="research-grid" id="research-topics">
+      <!-- Loaded from JSON -->
+    </div>
+  </main>
+
+  <footer>
+    <p>Prototype &mdash; Option A (JSON data file)</p>
+  </footer>
+
+  <script>
+    /**
+     * Option A: JSON-driven Research Page
+     *
+     * HOW TO EDIT:
+     *   1. Open research-data.json
+     *   2. Edit text, add/remove topics, add/remove references
+     *   3. Save and refresh the page — done!
+     *
+     * No HTML knowledge needed. The JSON structure is:
+     *   - overview: array of paragraph strings
+     *   - topics[]: each has title, icon, description[], references[]
+     */
+
+    async function loadResearch() {
+      try {
+        const response = await fetch('research-data.json');
+        const data = await response.json();
+        renderOverview(data.overview);
+        renderTopics(data.topics);
+      } catch (error) {
+        console.error('Error loading research data:', error);
+      }
+    }
+
+    function renderOverview(paragraphs) {
+      const container = document.getElementById('overview');
+      container.innerHTML = paragraphs.map(p => `<p>${p}</p>`).join('');
+    }
+
+    function renderTopics(topics) {
+      const container = document.getElementById('research-topics');
+      container.innerHTML = topics.map(topic => {
+        const descriptionHtml = topic.description
+          .map(p => `<p>${p}</p>`)
+          .join('');
+
+        const referencesHtml = topic.references.length > 0
+          ? `<div class="research-references">
+               <h4>Related Publications</h4>
+               <ol>
+                 ${topic.references.map(ref => `
+                   <li>
+                     <span class="ref-title">${ref.title}</span>
+                     <span class="ref-venue">${ref.venue} (${ref.year})</span>
+                     <a href="${ref.link}" target="_blank" class="ref-link">Paper &rarr;</a>
+                   </li>
+                 `).join('')}
+               </ol>
+             </div>`
+          : '';
+
+        return `
+          <div class="research-card">
+            <div class="research-card-header">
+              <div class="research-icon">
+                <i class="fas ${topic.icon}"></i>
+              </div>
+              <h3>${topic.title}</h3>
+            </div>
+            <div class="research-content">
+              ${descriptionHtml}
+              ${referencesHtml}
+            </div>
+          </div>
+        `;
+      }).join('');
+    }
+
+    document.addEventListener('DOMContentLoaded', loadResearch);
+  </script>
+</body>
+</html>
