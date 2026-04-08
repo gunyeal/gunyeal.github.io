@@ -65,6 +65,12 @@
     function renderTopics(topics) {
       const container = document.getElementById('research-topics');
       container.innerHTML = topics.map(topic => {
+        const imageHtml = topic.image
+          ? `<img src="${topic.image.src}"
+                 alt="${topic.image.alt}"
+                 class="research-img-float-${topic.image.float || 'right'}">`
+          : '';
+
         const descriptionHtml = topic.description
           .map(p => `<p>${p}</p>`)
           .join('');
@@ -93,6 +99,7 @@
               <h3>${topic.title}</h3>
             </div>
             <div class="research-content">
+              ${imageHtml}
               ${descriptionHtml}
               ${referencesHtml}
             </div>

@@ -19,6 +19,10 @@ Our work has introduced unprecedented degrees of freedom in optical design, such
 ## Optical Systems for Imaging, Displays, and More
 <!-- icon: fa-eye -->
 
+<img src="../../assets/photos-publications/figure-2024-nature.jpg"
+     alt="Full-colour 3D holographic AR display with metasurface waveguides"
+     class="research-img-float-right">
+
 While nanophotonics offers incredible control at the device level, its true potential is realized only when integrated into functional systems. A major focus of our lab is overcoming the fundamental trade-offs between form factor and performance in modern wearable displays.
 
 We pioneer the holistic integration of nanophotonics into full optical system prototypes. By reimagining optical architectures, we have developed see-through metasurface eyepieces that dramatically expand the field of view for immersive augmented reality ([Lee et al., Nature Communications 2018](https://doi.org/10.1038/s41467-018-07011-5)). Furthermore, we recently demonstrated the first compact, optical see-through AR system capable of delivering true 3D holographic content in a wearable form factor using inverse-designed metasurface waveguides ([Gopakumar and Lee et al., Nature 2024](https://doi.org/10.1038/s41586-024-07386-0)).

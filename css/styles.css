@@ -759,8 +759,34 @@ main {
     margin-bottom: 0;
 }
 
+/* Research inline float images */
+.research-img-float-right,
+.research-img-float-left {
+    width: 240px;
+    border-radius: var(--radius-sm);
+    box-shadow: var(--shadow-sm);
+    object-fit: cover;
+    transition: box-shadow 0.3s ease;
+}
+
+.research-img-float-right:hover,
+.research-img-float-left:hover {
+    box-shadow: var(--shadow-md);
+}
+
+.research-img-float-right {
+    float: right;
+    margin: 0.25rem 0 1rem 1.5rem;
+}
+
+.research-img-float-left {
+    float: left;
+    margin: 0.25rem 1.5rem 1rem 0;
+}
+
 /* Related Publications (compact list) */
 .research-references {
+    clear: both;
     margin-top: 1.8rem;
     padding-top: 1.2rem;
     border-top: 1px solid var(--color-border);
@@ -836,6 +862,15 @@ main {
     .research-references li {
         flex-direction: column;
         gap: 0.3rem;
+    }
+
+    .research-img-float-right,
+    .research-img-float-left {
+        float: none;
+        width: 100%;
+        max-width: 320px;
+        margin: 0 auto 1rem auto;
+        display: block;
     }
 }
 
