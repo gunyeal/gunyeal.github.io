@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Visuals Playground — Gun-Yeal Lee</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <!-- Reuse the live site's design system -->
+  <link rel="stylesheet" href="../../css/styles.css">
+
+  <!-- Demo-only styles -->
+  <style>
+    /* Let the canvas show through the body's gradient */
+    body {
+      background: linear-gradient(180deg, var(--color-bg) 0%, var(--color-bg-warm) 100%);
+    }
+
+    /* Full-screen animated background, pinned behind everything */
+    #bg-canvas {
+      position: fixed;
+      inset: 0;
+      width: 100vw;
+      height: 100vh;
+      z-index: -1;
+      pointer-events: none;
+    }
+
+    /* Floating style switcher */
+    .switcher {
+      position: fixed;
+      bottom: 1.25rem;
+      left: 50%;
+      transform: translateX(-50%);
+      z-index: 200;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.4rem;
+      padding: 0.6rem 0.8rem;
+      background: rgba(255, 255, 255, 0.85);
+      backdrop-filter: blur(20px);
+      -webkit-backdrop-filter: blur(20px);
+      border-radius: var(--radius-lg);
+      box-shadow: var(--shadow-md);
+      max-width: calc(100vw - 2rem);
+      justify-content: center;
+    }
+
+    .switcher button {
+      font-family: var(--font-main);
+      font-size: 0.85rem;
+      font-weight: 500;
+      color: var(--color-text);
+      background: transparent;
+      border: 1px solid var(--color-border);
+      padding: 0.45rem 0.9rem;
+      border-radius: var(--radius-sm);
+      cursor: pointer;
+      transition: all 0.25s ease;
+    }
+
+    .switcher button:hover {
+      border-color: var(--color-primary-light);
+      color: var(--color-primary);
+    }
+
+    .switcher button.active {
+      background: linear-gradient(135deg, var(--color-primary), var(--color-primary-light));
+      color: #fff;
+      border-color: transparent;
+    }
+
+    .demo-note {
+      max-width: 1200px;
+      margin: 0 auto 1rem;
+      padding: 0 2rem;
+      color: var(--color-text-light);
+      font-size: 0.95rem;
+    }
+
+    /* Schematic section */
+    .schematic-section {
+      max-width: 1200px;
+      margin: 3rem auto;
+      padding: 2rem;
+      background: rgba(255, 255, 255, 0.7);
+      backdrop-filter: blur(8px);
+      -webkit-backdrop-filter: blur(8px);
+      border-radius: var(--radius-md);
+      box-shadow: var(--shadow-sm);
+    }
+
+    .schematic-section h2 {
+      color: var(--color-text);
+      margin-bottom: 0.5rem;
+    }
+
+    .schematic-figure {
+      margin-top: 1.5rem;
+      width: 100%;
+      max-width: 760px;
+    }
+
+    .schematic-figure svg {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    figcaption {
+      margin-top: 0.75rem;
+      color: var(--color-text-light);
+      font-size: 0.9rem;
+    }
+
+    /* --- Inline SVG animation (CSS-driven, light & subtle) --- */
+    .src-glow {
+      transform-box: fill-box;
+      transform-origin: center;
+      animation: srcPulse 2.4s ease-in-out infinite;
+    }
+
+    @keyframes srcPulse {
+      0%, 100% { opacity: 0.35; r: 14; }
+      50% { opacity: 0.7; r: 20; }
+    }
+
+    .beam-dash {
+      stroke-dasharray: 6 10;
+      animation: beamFlow 1.2s linear infinite;
+    }
+
+    @keyframes beamFlow {
+      to { stroke-dashoffset: -16; }
+    }
+
+    .focal-pulse {
+      transform-box: fill-box;
+      transform-origin: center;
+      animation: focalPulse 2.4s ease-in-out infinite;
+    }
+
+    @keyframes focalPulse {
+      0%, 100% { opacity: 0.5; }
+      50% { opacity: 1; }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      .src-glow, .beam-dash, .focal-pulse { animation: none; }
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Animated background lives behind all content -->
+  <canvas id="bg-canvas"></canvas>
+
+  <!-- Navigation (mirrors the live site) -->
+  <nav>
+    <a href="../../index.html" class="logo">Gun-Yeal Lee</a>
+    <div class="nav-links">
+      <a href="../../index.html">Home</a>
+      <a href="../../research.html">Research</a>
+      <a href="../../publications.html">Publications</a>
+    </div>
+  </nav>
+
+  <main>
+    <p class="demo-note">
+      <i class="fas fa-flask"></i> <strong>Visuals playground</strong> — use the switcher at the
+      bottom to compare background animation styles behind real content. The schematic lower down
+      is a hand-coded SVG (the "code it as SVG" approach).
+    </p>
+
+    <!-- Sample hero (trimmed from the live homepage) -->
+    <section class="hero">
+      <div class="profile-container">
+        <img src="../../assets/photos-members/gylee_2023.jpeg" alt="Gun-Yeal Lee" class="profile-photo">
+      </div>
+      <div class="bio">
+        <h1>Gun-Yeal Lee</h1>
+        <p class="title">Postdoctoral Researcher at Stanford University</p>
+        <p>I am broadly interested in Optics and Photonics, with a particular focus on
+          nanophotonics and metasurfaces. My recent research at the intersection of optics and
+          computer vision focuses on developing next-generation optical imaging, display, and
+          computing systems.</p>
+        <p>This page is a sandbox for evaluating background motion — check that body text like this
+          paragraph stays comfortably readable while an animation plays behind it.</p>
+        <div class="social-links">
+          <a href="#" title="Email"><i class="fas fa-envelope"></i></a>
+          <a href="#" title="Google Scholar"><i class="fab fa-google-scholar"></i></a>
+          <a href="#" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sample cards to test readability over varied surfaces -->
+    <section class="news-section">
+      <div class="section-header">
+        <h2>Sample Content</h2>
+      </div>
+      <div class="news-grid">
+        <div class="news-card">
+          <p class="news-date">June 2026</p>
+          <p>A sample card to judge contrast where a white surface sits over the animation.</p>
+        </div>
+        <div class="news-card">
+          <p class="news-date">May 2026</p>
+          <p>Another card. Switch styles and watch how each reads against text and cards.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Hand-coded SVG schematic demo -->
+    <section class="schematic-section">
+      <h2>Schematic (coded SVG)</h2>
+      <p class="demo-note" style="padding:0;margin:0;">
+        Example optics schematic drawn entirely in SVG markup: collimated beam → metasurface →
+        focused spot. A few elements are animated with CSS (pulsing source, flowing beam, glowing
+        focus). Scales crisply at any zoom and is fully editable as text.
+      </p>
+
+      <figure class="schematic-figure">
+        <svg viewBox="0 0 760 280" xmlns="http://www.w3.org/2000/svg" role="img"
+             aria-label="Schematic: a collimated beam passes through a metasurface and focuses to a spot.">
+          <defs>
+            <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7"
+                    orient="auto-start-reverse">
+              <path d="M0,0 L10,5 L0,10 z" fill="var(--color-text-light)"></path>
+            </marker>
+            <linearGradient id="beamGrad" x1="0" y1="0" x2="1" y2="0">
+              <stop offset="0" stop-color="#f0b429" stop-opacity="0.15"></stop>
+              <stop offset="1" stop-color="#f0b429" stop-opacity="0.55"></stop>
+            </linearGradient>
+            <radialGradient id="spotGrad">
+              <stop offset="0" stop-color="#8c1515" stop-opacity="0.9"></stop>
+              <stop offset="1" stop-color="#8c1515" stop-opacity="0"></stop>
+            </radialGradient>
+          </defs>
+
+          <!-- Light source -->
+          <circle class="src-glow" cx="70" cy="140" r="16" fill="#f0b429"></circle>
+          <circle cx="70" cy="140" r="7" fill="#f0b429"></circle>
+          <text x="70" y="195" text-anchor="middle" font-family="Outfit, sans-serif"
+                font-size="14" fill="var(--color-text)">Light source</text>
+
+          <!-- Collimated beam (parallel rays) toward the metasurface -->
+          <g stroke="#f0b429" stroke-width="2" opacity="0.75">
+            <line class="beam-dash" x1="90" y1="115" x2="300" y2="115"></line>
+            <line class="beam-dash" x1="90" y1="140" x2="300" y2="140"></line>
+            <line class="beam-dash" x1="90" y1="165" x2="300" y2="165"></line>
+          </g>
+
+          <!-- Metasurface element -->
+          <rect x="300" y="80" width="18" height="120" rx="3" fill="#39c0c8" opacity="0.85"></rect>
+          <!-- nanopillar hatching to suggest a metasurface -->
+          <g stroke="#1a1a2e" stroke-width="1.5" opacity="0.35">
+            <line x1="304" y1="88" x2="304" y2="192"></line>
+            <line x1="309" y1="88" x2="309" y2="192"></line>
+            <line x1="314" y1="88" x2="314" y2="192"></line>
+          </g>
+          <text x="309" y="225" text-anchor="middle" font-family="Outfit, sans-serif"
+                font-size="14" fill="var(--color-text)">Metasurface</text>
+
+          <!-- Converging beam (filled cone) to focal spot -->
+          <polygon points="318,90 318,190 660,140" fill="url(#beamGrad)"></polygon>
+          <g stroke="#f0b429" stroke-width="1.5" opacity="0.6">
+            <line x1="318" y1="92" x2="660" y2="140"></line>
+            <line x1="318" y1="140" x2="660" y2="140"></line>
+            <line x1="318" y1="188" x2="660" y2="140"></line>
+          </g>
+
+          <!-- Focal spot -->
+          <circle class="focal-pulse" cx="660" cy="140" r="22" fill="url(#spotGrad)"></circle>
+          <circle cx="660" cy="140" r="5" fill="#8c1515"></circle>
+          <text x="660" y="195" text-anchor="middle" font-family="Outfit, sans-serif"
+                font-size="14" fill="var(--color-text)">Focal spot</text>
+
+          <!-- Optical axis -->
+          <line x1="40" y1="140" x2="720" y2="140" stroke="var(--color-text-light)"
+                stroke-width="1" stroke-dasharray="2 4" opacity="0.5"
+                marker-end="url(#arrow)"></line>
+        </svg>
+        <figcaption>Fig. — Beam focusing by a metasurface, drawn and animated in pure SVG/CSS.</figcaption>
+      </figure>
+    </section>
+  </main>
+
+  <footer>
+    <p>Visuals playground · not part of the live site</p>
+  </footer>
+
+  <!-- Style switcher -->
+  <div class="switcher" id="switcher">
+    <button data-mode="wave">Wave / Interference</button>
+    <button data-mode="motes">Light motes</button>
+    <button data-mode="streaks">Streaking photons</button>
+    <button data-mode="network">Particle network</button>
+    <button data-mode="networkPhotons">Net + photons (S)</button>
+    <button data-mode="networkPhotonsM">Net + photons (M)</button>
+    <button data-mode="networkPhotonsL">Net + photons (L)</button>
+    <button data-mode="networkPhotonsLineMed">Lines: medium</button>
+    <button data-mode="networkPhotonsLineBold">Lines: bold</button>
+    <button data-mode="networkPhotonsSMed">Photon: current (big head)</button>
+    <button data-mode="networkPhotonsSmallHead">Photon: small head</button>
+    <button data-mode="networkPhotonsLongTail">Photon: long tail</button>
+    <button data-mode="networkPhotonsSlim">Photon: slim comet</button>
+    <button data-mode="off">Off</button>
+  </div>
+
+  <script src="photon-bg.js"></script>
+  <script>
+    (function () {
+      const bar = document.getElementById('switcher');
+      function sync() {
+        const cur = window.PhotonBG ? window.PhotonBG.current : 'off';
+        bar.querySelectorAll('button').forEach((b) => {
+          b.classList.toggle('active', b.dataset.mode === cur);
+        });
+      }
+      bar.addEventListener('click', (e) => {
+        const btn = e.target.closest('button');
+        if (!btn || !window.PhotonBG) return;
+        window.PhotonBG.setMode(btn.dataset.mode);
+        sync();
+      });
+      sync();
+    })();
+  </script>
+</body>
+
+</html>
