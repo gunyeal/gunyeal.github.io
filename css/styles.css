@@ -680,6 +680,201 @@ main {
 }
 
 /* =========================================
+   RESEARCH PAGE
+   ========================================= */
+.research-grid {
+    display: grid;
+    gap: 2rem;
+}
+
+.research-card {
+    background: var(--color-card);
+    padding: 2.5rem;
+    border-radius: var(--radius-md);
+    box-shadow: var(--shadow-sm);
+    transition: all 0.4s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.research-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 4px;
+    height: 100%;
+    background: linear-gradient(180deg, var(--color-primary), var(--color-link));
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.research-card:hover {
+    box-shadow: var(--shadow-md);
+}
+
+.research-card:hover::before {
+    opacity: 1;
+}
+
+.research-card-header {
+    display: flex;
+    align-items: center;
+    gap: 1.2rem;
+    margin-bottom: 1.5rem;
+}
+
+.research-card-header h3 {
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: var(--color-text);
+}
+
+.research-icon {
+    width: 48px;
+    height: 48px;
+    min-width: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, rgba(140, 21, 21, 0.08), rgba(102, 136, 255, 0.08));
+    border-radius: var(--radius-sm);
+    font-size: 1.3rem;
+    color: var(--color-primary);
+    transition: all 0.3s ease;
+}
+
+.research-card:hover .research-icon {
+    background: var(--color-primary);
+    color: white;
+}
+
+.research-content p {
+    color: var(--color-text-light);
+    line-height: 1.8;
+    margin-bottom: 1rem;
+}
+
+.research-content p:last-of-type {
+    margin-bottom: 0;
+}
+
+/* Research inline float images */
+.research-img-float-right,
+.research-img-float-left {
+    width: 240px;
+    border-radius: var(--radius-sm);
+    box-shadow: var(--shadow-sm);
+    object-fit: cover;
+    transition: box-shadow 0.3s ease;
+}
+
+.research-img-float-right:hover,
+.research-img-float-left:hover {
+    box-shadow: var(--shadow-md);
+}
+
+.research-img-float-right {
+    float: right;
+    margin: 0.25rem 0 1rem 1.5rem;
+}
+
+.research-img-float-left {
+    float: left;
+    margin: 0.25rem 1.5rem 1rem 0;
+}
+
+/* Related Publications (compact list) */
+.research-references {
+    clear: both;
+    margin-top: 1.8rem;
+    padding-top: 1.2rem;
+    border-top: 1px solid var(--color-border);
+}
+
+.research-references h4 {
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--color-text-light);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 0.8rem;
+}
+
+.research-references ol {
+    list-style: none;
+    padding: 0;
+    counter-reset: ref-counter;
+}
+
+.research-references li {
+    counter-increment: ref-counter;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 0.4rem 0.8rem;
+    padding: 0.6rem 0;
+}
+
+.research-references li::before {
+    content: counter(ref-counter) ".";
+    font-weight: 600;
+    color: var(--color-primary);
+    min-width: 1.5rem;
+}
+
+.research-references li + li {
+    border-top: 1px solid var(--color-border);
+}
+
+.ref-title {
+    font-weight: 500;
+    color: var(--color-text);
+    flex: 1 1 60%;
+}
+
+.ref-venue {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: var(--color-primary);
+}
+
+.ref-link {
+    font-size: 0.85rem;
+    font-weight: 500;
+    padding: 0.25rem 0.6rem;
+    background: rgba(102, 136, 255, 0.1);
+    border-radius: 6px;
+    color: var(--color-link);
+    transition: all 0.2s ease;
+}
+
+.ref-link:hover {
+    background: var(--color-link);
+    color: white;
+}
+
+@media (max-width: 600px) {
+    .research-card {
+        padding: 1.5rem;
+    }
+
+    .research-references li {
+        flex-direction: column;
+        gap: 0.3rem;
+    }
+
+    .research-img-float-right,
+    .research-img-float-left {
+        float: none;
+        width: 100%;
+        max-width: 320px;
+        margin: 0 auto 1rem auto;
+        display: block;
+    }
+}
+
+/* =========================================
    FOOTER
    ========================================= */
 footer {

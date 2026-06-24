@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Option B: Markdown-driven Research Page</title>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="../../css/styles.css">
+
+  <!-- marked.js: lightweight Markdown parser (7KB gzipped) -->
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+</head>
+<body>
+  <nav>
+    <a href="#" class="logo">Option B: Markdown</a>
+    <div class="nav-links" id="nav-menu">
+      <a href="../option-a-json/index.html">JSON Version</a>
+      <a href="../option-b-markdown/index.html" class="active">Markdown Version</a>
+    </div>
+  </nav>
+
+  <main>
+    <div class="page-header">
+      <h1>Research</h1>
+      <div id="overview"><!-- Loaded from Markdown --></div>
+    </div>
+
+    <div class="research-grid" id="research-topics">
+      <!-- Loaded from Markdown -->
+    </div>
+  </main>
+
+  <footer>
+    <p>Prototype &mdash; Option B (Markdown file)</p>
+  </footer>
+
+  <script>
+    /**
+     * Option B: Markdown-driven Research Page
+     *
+     * HOW TO EDIT:
+     *   1. Open research.md
+     *   2. Write naturally using Markdown (headings, links, bold, lists)
+     *   3. Save and refresh — done!
+     *
+     * FORMAT RULES:
+     *   - Text before the first "---" = overview paragraphs
+     *   - Each "## Title" starts a new research topic section
+     *   - Add <!-- icon: fa-xxx --> after ## heading to set the icon
+     *   - "**Related Publications:**" followed by a list = references
+     *   - Each reference: "- Title | Venue (Year) | [Paper](link)"
+     */
+
+    // Default icons if none specified in the markdown
+    const DEFAULT_ICONS = ['fa-layer-group', 'fa-eye', 'fa-brain', 'fa-lightbulb'];
+
+    async function loadResearch() {
+      try {
+        const response = await fetch('research.md');
+        const markdown = await response.text();
+        parseAndRender(markdown);
+      } catch (error) {
+        console.error('Error loading research markdown:', error);
+      }
+    }
+
+    function parseAndRender(markdown) {
+      // Split by horizontal rules (---) to get overview + topics
+      const sections = markdown.split(/\n---\n/).map(s => s.trim());
+
+      // First section = overview
+      const overviewMd = sections[0];
+      renderOverview(overviewMd);
+
+      // Remaining sections = research topics
+      const topicSections = sections.slice(1);
+      renderTopics(topicSections);
+    }
+
+    function renderOverview(md) {
+      const container = document.getElementById('overview');
+      container.innerHTML = marked.parse(md);
+    }
+
+    function renderTopics(topicSections) {
+      const container = document.getElementById('research-topics');
+
+      container.innerHTML = topicSections.map((section, index) => {
+        // Extract icon from <!-- icon: fa-xxx --> comment
+        const iconMatch = section.match(/<!--\s*icon:\s*(fa-[\w-]+)\s*-->/);
+        const icon = iconMatch ? iconMatch[1] : DEFAULT_ICONS[index] || 'fa-flask';
+
+        // Remove the icon comment from content
+        let content = section.replace(/<!--\s*icon:.*?-->\n?/, '');
+
+        // Extract title from ## heading
+        const titleMatch = content.match(/^##\s+(.+)$/m);
+        const title = titleMatch ? titleMatch[1].trim() : 'Untitled';
+        content = content.replace(/^##\s+.+$/m, '').trim();
+
+        // Split out "Related Publications" section
+        const refSplit = content.split(/\*\*Related Publications:\*\*/);
+        const descriptionMd = refSplit[0].trim();
+        const referencesMd = refSplit[1] ? refSplit[1].trim() : '';
+
+        // Parse description paragraphs
+        const descriptionHtml = marked.parse(descriptionMd);
+
+        // Parse references from "- Title | Venue (Year) | [Paper](link)" format
+        let referencesHtml = '';
+        if (referencesMd) {
+          const refLines = referencesMd.split('\n').filter(l => l.trim().startsWith('-'));
+          if (refLines.length > 0) {
+            const refItems = refLines.map(line => {
+              const parts = line.replace(/^-\s*/, '').split('|').map(p => p.trim());
+              const title = parts[0] || '';
+              const venue = parts[1] || '';
+              const linkMd = parts[2] || '';
+
+              // Parse [text](url) from the link part
+              const linkMatch = linkMd.match(/\[([^\]]+)\]\(([^)]+)\)/);
+              const linkHtml = linkMatch
+                ? `<a href="${linkMatch[2]}" target="_blank" class="ref-link">${linkMatch[1]} &rarr;</a>`
+                : '';
+
+              return `
+                <li>
+                  <span class="ref-title">${title}</span>
+                  <span class="ref-venue">${venue}</span>
+                  ${linkHtml}
+                </li>`;
+            }).join('');
+
+            referencesHtml = `
+              <div class="research-references">
+                <h4>Related Publications</h4>
+                <ol>${refItems}</ol>
+              </div>`;
+          }
+        }
+
+        return `
+          <div class="research-card">
+            <div class="research-card-header">
+              <div class="research-icon">
+                <i class="fas ${icon}"></i>
+              </div>
+              <h3>${title}</h3>
+            </div>
+            <div class="research-content">
+              ${descriptionHtml}
+              ${referencesHtml}
+            </div>
+          </div>
+        `;
+      }).join('');
+    }
+
+    document.addEventListener('DOMContentLoaded', loadResearch);
+  </script>
+</body>
+</html>
