@@ -82,8 +82,8 @@ nav {
     top: 1rem;
     z-index: 100;
     max-width: 1200px;
-    margin: 1rem auto;
-    padding: 1rem 2rem;
+    margin: 0.6rem auto;
+    padding: 0.7rem 2rem;
     background: rgba(255, 255, 255, 0.85);
     backdrop-filter: blur(20px);
     -webkit-backdrop-filter: blur(20px);
@@ -148,7 +148,7 @@ nav {
 main {
     max-width: 1200px;
     margin: 0 auto;
-    padding: clamp(2rem, 6vw, 4rem) clamp(1.5rem, 5vw, 2rem);
+    padding: clamp(1.25rem, 3vw, 2rem) clamp(1.5rem, 5vw, 2rem);
 }
 
 /* =========================================
@@ -156,11 +156,11 @@ main {
    ========================================= */
 .hero {
     display: grid;
-    grid-template-columns: 320px 1fr;
-    gap: clamp(2rem, 5vw, 4rem);
+    grid-template-columns: 250px 1fr;
+    gap: clamp(1.75rem, 3vw, 2.5rem);
     align-items: center;
-    margin-bottom: 4rem;
-    padding: 3rem;
+    margin-bottom: 1.5rem;
+    padding: 1.85rem;
     background: var(--color-card);
     border-radius: var(--radius-lg);
     box-shadow: var(--shadow-md);
@@ -217,7 +217,7 @@ main {
 }
 
 .bio h1 {
-    font-size: clamp(2.2rem, 5vw, 3rem);
+    font-size: clamp(2rem, 4vw, 2.6rem);
     font-weight: 700;
     background: linear-gradient(135deg, var(--color-text), var(--color-primary));
     -webkit-background-clip: text;
@@ -230,7 +230,7 @@ main {
     font-size: 1.1rem;
     font-weight: 500;
     color: var(--color-primary);
-    margin-bottom: 1.5rem;
+    margin-bottom: 1rem;
     display: flex;
     align-items: center;
     gap: 0.5rem;
@@ -246,18 +246,54 @@ main {
 
 .bio p {
     color: var(--color-text-light);
-    margin-bottom: 1rem;
+    margin-bottom: 0.75rem;
+    line-height: 1.6;
 }
 
 .bio a {
     font-weight: 500;
 }
 
+/* Announcement Callout */
+.announcement {
+    display: flex;
+    gap: 1rem;
+    align-items: flex-start;
+    margin: 0 0 2rem;
+    padding: 1.1rem 1.6rem;
+    background: linear-gradient(135deg, rgba(140, 21, 21, 0.05), rgba(102, 136, 255, 0.05));
+    border: 1px solid var(--color-border);
+    border-left: 4px solid var(--color-primary);
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-sm);
+}
+
+.announcement-icon {
+    color: var(--color-primary);
+    font-size: 1.2rem;
+    margin-top: 0.15rem;
+    flex-shrink: 0;
+}
+
+.announcement-body p {
+    margin-bottom: 0.3rem;
+}
+
+.announcement-title {
+    font-weight: 600;
+    color: var(--color-text);
+}
+
+.announcement-text {
+    font-size: 0.95rem;
+    margin-bottom: 0 !important;
+}
+
 /* Social Links */
 .social-links {
     display: flex;
     gap: 0.8rem;
-    margin-top: 2rem;
+    margin-top: 1.25rem;
 }
 
 .social-links a {
