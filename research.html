@@ -49,6 +49,7 @@
   </nav>
 
   <main>
+<<<<<<< Updated upstream
     <!-- Page Header -->
     <div class="page-header">
       <h1>Research</h1>
@@ -61,10 +62,21 @@
         fundamentally reshaping optical hardware to create new ways to perceive, interact with, and compute digital
         information.</p>
     </div>
+=======
+>>>>>>> Stashed changes
 
-    <!-- Research Topics -->
-    <div class="research-grid">
+    <!-- ===================================================================
+         SECTION 1 — VISION
+         =================================================================== -->
+    <section class="research-section">
+      <div class="vision">
+        <span class="vision-eyebrow">Vision</span>
+        <h1 class="vision-title">Intelligent photonic interfaces for humans, computers, and physical systems.</h1>
+        <p class="vision-tagline">We develop intelligent photonic interfaces that use light to connect humans,
+          computers, and physical systems — reshaping optical hardware so that information can be perceived,
+          processed, and exchanged through light.</p>
 
+<<<<<<< Updated upstream
       <!-- Topic 1: Nanophotonic Devices -->
       <div class="research-card">
         <div class="research-card-header">
@@ -94,18 +106,134 @@
                   class="ref-link">Paper →</a>
               </li>
             </ol>
+=======
+        <!-- FIGURE PLACEHOLDER: vision diagram (humans · computers · physical/quantum systems connected by light).
+             Replace this entire .vision-figure block with an <img> when the figure is ready. -->
+        <div class="vision-figure">
+          <div class="figure-placeholder">
+            <i class="fas fa-diagram-project"></i>
+            <span>Vision diagram — humans &middot; computers &middot; physical / quantum systems, connected by light</span>
+>>>>>>> Stashed changes
           </div>
         </div>
       </div>
+    </section>
 
-      <!-- Topic 2: Optical Systems -->
-      <div class="research-card">
-        <div class="research-card-header">
+    <!-- ===================================================================
+         SECTION 2 — RESEARCH DIRECTIONS (primary focus)
+         =================================================================== -->
+    <section class="research-section">
+      <div class="section-header">
+        <h2>Research Directions</h2>
+      </div>
+      <p class="section-intro">Our research interests span a broad range of application domains where light carries
+        and shapes information. In the near term, we are especially focused on two directions.</p>
+
+      <div class="directions-grid">
+
+        <!-- Direction 1: Humans ↔ Computers -->
+        <article class="direction-card">
+          <div class="direction-aside">
+            <!-- Icon candidate for Human–Computer Interaction (AR/VR near-eye displays).
+                 Alternatives to try: fa-vr-cardboard, fa-display, fa-eye, fa-glasses-round -->
+            <div class="direction-icon">
+              <i class="fas fa-glasses"></i>
+            </div>
+            <span class="direction-eyebrow">Humans &harr; Computers</span>
+          </div>
+          <div class="direction-body">
+          <h3>Photonic Interfaces for Human–Computer Interaction</h3>
+          <p>How can light make digital information feel naturally embedded in the world around us? Today's near-eye
+            displays still face a difficult trade-off: immersive 3D visual experiences require sophisticated optical
+            control, while lightweight glasses-like form factors leave little room for bulky lenses, waveguides, and
+            projection systems.</p>
+          <p>We develop compact optical systems for augmented and virtual reality by combining nanophotonic devices,
+            holographic displays, and AI-driven computational imaging. Instead of treating optical hardware and
+            algorithms as separate components, we co-design the full optical stack — from metasurface optics and
+            waveguides to learned hologram generation and aberration correction.</p>
+          <p>This direction builds on previous work on <a href="https://doi.org/10.1038/s41467-018-07011-5"
+              target="_blank">metasurface eyepieces for augmented reality</a>, <a
+              href="https://doi.org/10.1145/3588037.3595395" target="_blank">neural holographic near-eye displays</a>,
+            and <a href="https://doi.org/10.1038/s41586-024-07386-0" target="_blank">full-colour 3D holographic AR
+              displays with metasurface waveguides</a>. The goal is to create lightweight, immersive, and visually
+            natural display systems that allow humans and computers to interact through light.</p>
+          </div>
+        </article>
+
+        <!-- Direction 2: Computers ↔ Quantum Matter (future-looking; no result claims) -->
+        <article class="direction-card">
+          <div class="direction-aside">
+            <!-- Icon candidate for Quantum Matter / neutral-atom computing.
+                 Alternatives to try: fa-circle-nodes, fa-microchip, fa-atom (current) -->
+            <div class="direction-icon">
+              <i class="fas fa-atom"></i>
+            </div>
+            <span class="direction-eyebrow">Computers &harr; Quantum Matter</span>
+          </div>
+          <div class="direction-body">
+          <h3>Photonic Interfaces for Quantum Matter and Computing</h3>
+          <p>How can optical hardware help computers control physical and quantum systems at scale? Neutral-atom
+            quantum computers are a powerful example: atoms can serve as programmable quantum bits, but scaling this
+            platform requires precise optical trapping, dynamic control, and high-fidelity readout of many atoms in
+            parallel.</p>
+          <p>We develop nanophotonic and integrated optical systems that bring this control closer to the chip. By
+            combining metasurfaces, photonic integrated circuits, and computational design, we aim to create compact
+            optical platforms for trapping, arranging, addressing, and reading out neutral atoms. These systems could
+            reduce the complexity of free-space optical setups and provide new routes toward scalable quantum
+            processors.</p>
+          <p>This direction extends our photonic design philosophy into quantum technologies. Rather than studying
+            quantum computation itself as an algorithmic problem, we focus on the optical interface that connects
+            classical computers to quantum matter — the photonic hardware layer that allows information to be delivered
+            to, manipulated within, and extracted from physical quantum systems.</p>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- ===================================================================
+         SECTION 3 — OUR APPROACH (the technical engine behind both directions)
+         =================================================================== -->
+    <section class="research-section">
+      <div class="section-header">
+        <h2>Our Approach</h2>
+      </div>
+      <p class="section-intro">Across both research directions, we use a full-stack photonic design philosophy. We
+        engineer light from the nanoscale structure, to the optical system, to the computational algorithm that drives
+        it. This approach combines three synergistic capabilities.</p>
+
+      <div class="approach-grid">
+
+        <!-- Approach 1: Nanophotonics -->
+        <div class="approach-card">
+          <div class="research-icon">
+            <i class="fas fa-microchip"></i>
+          </div>
+          <h3>Nanophotonics</h3>
+          <p>We design and fabricate subwavelength optical structures that control the amplitude, phase, polarization,
+            spectrum, and spatial distribution of light. Metasurfaces and other nanophotonic devices allow us to replace
+            bulky optical components with ultrathin, multifunctional elements tailored for specific system-level
+            goals.</p>
+          <!-- Figure: "Complete amplitude and phase control of light" (Nanoscale 2018) -->
+          <img class="approach-img" src="assets/photos-research/figure-2018-nanoscale.png"
+            alt="Complete amplitude and phase control of light using a broadband holographic metasurface">
+        </div>
+
+        <!-- Approach 2: Optical Systems Engineering -->
+        <div class="approach-card">
           <div class="research-icon">
             <i class="fas fa-eye"></i>
           </div>
-          <h3>Optical Systems for Imaging, Displays, and More</h3>
+          <h3>Optical Systems Engineering</h3>
+          <p>We integrate nanophotonic devices into complete optical platforms, including near-eye displays, holographic
+            imaging systems, and atom-control architectures. At this level, the goal is not only to improve an individual
+            optical element, but also to rethink the entire optical architecture to achieve new combinations of
+            compactness, efficiency, field of view, resolution, and scalability.</p>
+          <!-- Figure: "Neural Holographic Near-eye Displays for Virtual Reality" (SIGGRAPH 2023) -->
+          <img class="approach-img" src="assets/photos-research/figure-2023-etech.jpg"
+            alt="Neural holographic near-eye displays for virtual reality">
         </div>
+<<<<<<< Updated upstream
         <div class="research-content">
           <p>While nanophotonics offers incredible control at the device level, its true potential is realized only when
             integrated into functional systems. A major focus of our lab is overcoming the fundamental trade-offs between
@@ -175,10 +303,31 @@
               </li>
             </ol>
           </div>
+=======
+
+        <!-- Approach 3: Physics-Informed Machine Learning & Computational Optics -->
+        <div class="approach-card">
+          <div class="research-icon">
+            <i class="fas fa-brain"></i>
+          </div>
+          <h3>Physics-Informed Machine Learning &amp; Computational Optics</h3>
+          <p>We use computational models and learning-based algorithms that are grounded in the physics of light
+            propagation, light–matter interaction, and optical measurement. These tools allow us to inverse-design
+            photonic hardware, compensate for aberrations and fabrication errors, and close the gap between ideal
+            simulations and real experimental systems.</p>
+          <!-- Figure: "Neural phase microscopy with metasurface optics" (Nature Communications 2026) -->
+          <img class="approach-img" src="assets/photos-research/figure-2026-NCOMM.png"
+            alt="Neural phase microscopy with metasurface optics for quantitative phase imaging">
+>>>>>>> Stashed changes
         </div>
+
       </div>
 
-    </div>
+      <p class="approach-closing">Together, these approaches allow us to build intelligent photonic interfaces:
+        optical systems that are not only smaller and more efficient, but also computationally aware, physically
+        grounded, and designed for the systems they serve.</p>
+    </section>
+
   </main>
 
   <footer>
