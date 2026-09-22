@@ -359,6 +359,112 @@ main {
 }
 
 /* =========================================
+   RESEARCH GROUP (members + recruiting card)
+   ========================================= */
+.group-section {
+    margin: 2.5rem 0 4rem;
+}
+
+.group-card {
+    display: grid;
+    grid-template-columns: minmax(0, 2fr) minmax(0, 3fr);
+    gap: 1.5rem 2.5rem;
+    align-items: start;
+    padding: 1.85rem;
+    background: var(--color-card);
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-md);
+}
+
+.group-intro {
+    grid-column: 1 / -1;
+    color: var(--color-text-light);
+}
+
+.group-label {
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--color-text-light);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 0.6rem;
+}
+
+.member-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.member {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 0.2rem 0.8rem;
+    padding: 0.5rem 0 0.5rem 1rem;
+    border-left: 3px solid var(--color-border);
+    transition: border-color 0.2s ease;
+}
+
+.member + .member {
+    margin-top: 0.4rem;
+}
+
+.member:hover {
+    border-left-color: var(--color-primary);
+}
+
+.member-name {
+    font-weight: 600;
+    color: var(--color-text);
+}
+
+.member-role {
+    font-size: 0.9rem;
+    color: var(--color-text-light);
+}
+
+.group-note {
+    margin-top: 1rem;
+    font-size: 0.9rem;
+    color: var(--color-text-light);
+}
+
+/* Recruiting panel: reuses the .announcement callout styles inside the card */
+.group-recruiting {
+    margin: 0;
+    border-radius: var(--radius-md);
+}
+
+.group-cta {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-top: 1rem;
+    padding: 0.55rem 1.1rem;
+    background: var(--color-primary);
+    color: white;
+    border-radius: var(--radius-sm);
+    font-size: 0.9rem;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.group-cta:hover {
+    background: var(--color-primary-light);
+    color: white;
+    transform: translateY(-2px);
+    box-shadow: 0 10px 25px rgba(140, 21, 21, 0.3);
+}
+
+@media (max-width: 900px) {
+    .group-card {
+        grid-template-columns: 1fr;
+        padding: 1.5rem;
+    }
+}
+
+/* =========================================
    NEWS SECTION
    ========================================= */
 .news-section {
